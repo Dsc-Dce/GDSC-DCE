@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300&display=swap');
+nav{
+    width: 100%;
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: flex-end;
+}
+.nav-item{
+    padding: 0 10px;
+    font-size: 16.5px;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; */
+font-family: 'Nunito', sans-serif;
+margin:0 13px;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover{
+    color:#4385f4 !important;
+    transition: 2ms;
+}
+.dsclogo{
+    height: 71px;
+    width: auto;
+}
+.active{
+    color:#4385f4 !important;
+}
+.navbar{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    height: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.events-link{
+    line-height: normal;
+}
+.events-link>a{
+background:#4385f4 ;
+padding: 0;
+border-radius: 20px;
+color: white !important;
+font-size: 15.5px;
+font-weight: 400;
+padding-left:28px !important;
+padding-right:28px !important;
+line-height:2.4;
+}
+.events-link>a:hover{
+    background: #4385f41f;
+    border: 1px solid #4385f4;
+    padding-left:27px !important;
+padding-right:27px !important;
+    color:#4385f4 ;
+}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        padding-right: 4%;
+        padding-left: 4%;
+        height: 90px;
+    }
+    .dsclogo{
+        height: 50px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right: 4%;
+        z-index: 1;
+    }
+    .navbar-collapse{
+        position: absolute;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: white;
+    }
+    .navbar-nav{
+     padding-top: 50%;
+    }
+    .nav-item{
+        text-align: center;
+        width: 180px;
+        font-size: 22.5px;
+        margin-left: 23%;
+        margin-block-end: 17px;
+    }
+    .events-link>a{
+      font-size: 22.5px;
+      border-radius: 30px;
+    }
+}
