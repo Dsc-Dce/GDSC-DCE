@@ -5,7 +5,7 @@ import './assets/css/navbar.css';
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 //logo
-import logo from './assets/images/DSC Light.PNG';
+import logo from './assets/images/DSC Light.png';
 
 const Navbar=()=>{
 return(
