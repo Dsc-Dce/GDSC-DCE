@@ -24,8 +24,11 @@ return(
       <li className="nav-item">
         <a className="nav-link" href="#">Team</a>
       </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#">Events</a>
+      </li>
       <li className="nav-item events-link">
-        <a className="nav-link " href="#">Events</a>
+        <a className="nav-link " href="#">CoviHack'21</a>
       </li>
     </ul>
   </div>

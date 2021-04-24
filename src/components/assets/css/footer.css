@@ -1,3 +1,58 @@
-.footertxt{
-    color:#52acff;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300&display=swap');
+footer{
+    background: rgba(234,68,53);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 11px 11%;
+}
+.footer-left>img{
+height: 55px;
+}
+.footer-left>h6{
+    font-size: 12px;
+    padding-left: 50px;
+    margin-top: 4px;
+}
+.footer-icons>a>img{
+    height: 38px;
+    width: 38px;
+    margin:0 8px;
+}
+.footer-right{
+    width: 50%;
+    justify-content: right;
+    text-align: right;
+    padding-top: 8px;
+}
+.footer-right>h6{
+    padding-right: 54px;
+    margin-top: 10px;
+}
+.footer-left{
+    width: 50%;
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        padding: 7px 2%;
+    }
+    footer>.d-flex{
+        flex-direction: column;
+    }
+    .footer-left{
+        justify-content: center;
+    }
+    .footer-left, .footer-right{
+        width: 100%;
+    }
+    .footer-right{
+        margin-top: 5px;
+        justify-content: left;
+        text-align: left;
+    }
+    .footer-right>h6{
+        padding-left: 60px;
+    }
 }

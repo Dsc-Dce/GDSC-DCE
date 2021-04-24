@@ -41,19 +41,19 @@ margin:0 13px;
 .events-link>a{
 background:#4385f4 ;
 padding: 0;
-border-radius: 20px;
+border-radius: 30px;
 color: white !important;
 font-size: 15.5px;
 font-weight: 400;
-padding-left:28px !important;
-padding-right:28px !important;
+padding-left: 20px !important;
+padding-right:20px !important;
 line-height:2.4;
 }
 .events-link>a:hover{
     background: #4385f41f;
     border: 1px solid #4385f4;
-    padding-left:27px !important;
-padding-right:27px !important;
+    padding-left:19px !important;
+padding-right:19px !important;
     color:#4385f4 ;
 }
 @media only screen and (max-width: 600px) {
@@ -68,7 +68,7 @@ padding-right:27px !important;
     .navbar-toggler{
         position: absolute;
         right: 4%;
-        z-index: 1;
+        z-index: 2;
     }
     .navbar-collapse{
         position: absolute;
@@ -78,6 +78,7 @@ padding-right:27px !important;
         top: 0;
         left: 0;
         background: white;
+        z-index: 1;
     }
     .navbar-nav{
      padding-top: 50%;
