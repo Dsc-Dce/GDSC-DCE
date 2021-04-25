@@ -1,0 +1,64 @@
+body{
+    background: #fff;
+}
+#heading{
+    text-align: center;
+}
+
+.profile-area{
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+.card{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img1 img{
+    height: 150px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+.card:hover .img2 img{
+    border-color: darkcyan;
+    transition: .7s;
+}
+.main-text{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+}
+
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i{
+    font-size: 20px;
+    color: darkcyan;
+    padding: 0 10px;
+}
