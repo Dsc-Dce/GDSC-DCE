@@ -3,10 +3,9 @@ footer{
     background: rgba(234,68,53);
     color: white;
     font-family: 'Nunito', sans-serif;
-    position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 11px 11%;
+    padding: 0px 11%;
 }
 .footer-left>img{
 height: 55px;
@@ -17,8 +16,8 @@ height: 55px;
     margin-top: 4px;
 }
 .footer-icons>a>img{
-    height: 38px;
-    width: 38px;
+    height: 35px;
+    width: 35px;
     margin:0 8px;
 }
 .footer-right{

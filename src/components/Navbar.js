@@ -6,7 +6,7 @@ import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import { NavLink} from 'react-router-dom';
 //logo
-import logo from './assets/images/DSC Light.png';
+import logo from './assets/images/DSCnavlogo.PNG';
 
 const Navbar=()=>{
 return(
@@ -20,7 +20,7 @@ return(
     <ul className="navbar-nav mr-auto">
       
       <li className="nav-item ">
-        <NavLink className="nav-link active" to="/about">About Us</NavLink>
+        <NavLink className="nav-link " to="/about">About Us</NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/team">Team</NavLink>

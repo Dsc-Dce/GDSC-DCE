@@ -22,7 +22,7 @@ margin:0 13px;
     transition: 2ms;
 }
 .dsclogo{
-    height: 71px;
+    height: 266px;
     width: auto;
 }
 .active{
@@ -31,7 +31,7 @@ margin:0 13px;
 .navbar{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
     background-color: white;
-    height: 100px;
+    height: 72px;
     padding-left: 8%;
     padding-right: 8%;
 }
@@ -60,15 +60,17 @@ padding-right:19px !important;
     .navbar{
         padding-right: 4%;
         padding-left: 4%;
-        height: 90px;
+        height: 71px;
     }
     .dsclogo{
-        height: 50px;
+        height: 190px;
+        position: absolute;
+        top: -56px;
     }
     .navbar-toggler{
         position: absolute;
         right: 4%;
-        z-index: 2;
+        z-index: 12;
     }
     .navbar-collapse{
         position: absolute;
@@ -78,10 +80,10 @@ padding-right:19px !important;
         top: 0;
         left: 0;
         background: white;
-        z-index: 1;
+        z-index: 10;
     }
     .navbar-nav{
-     padding-top: 50%;
+     padding-top: 48%;
     }
     .nav-item{
         text-align: center;

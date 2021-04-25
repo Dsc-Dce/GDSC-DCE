@@ -17,8 +17,8 @@ const Footer=()=>{
                 <div className="footer-right">
                     <div className="footer-icons">
                         <a href="https://www.instagram.com/dsc.dce/"><img src={insta} alt="insta" /></a>
-                        <a hre="https://github.com/Dsc-Dce"><img src={gh} alt="github"/></a>
-                        <a hre="https://twitter.com/ClubDce"><img src={tw} alt="twitter"/></a>
+                        <a href="https://github.com/Dsc-Dce"><img src={gh} alt="github"/></a>
+                        <a href="https://twitter.com/ClubDce"><img src={tw} alt="twitter"/></a>
                         <a href="https://www.facebook.com/dsc.dce.9"><img src={fb} alt="facebook" /></a>
                     </div>
                     <h6>Catch Us On</h6>
