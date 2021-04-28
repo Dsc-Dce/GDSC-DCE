@@ -5,7 +5,7 @@ footer{
     font-family: 'Nunito', sans-serif;
     bottom: 0;
     width: 100%;
-    padding: 0px 11%;
+    padding: 7px 11%;
 }
 .footer-left>img{
 height: 55px;
@@ -13,7 +13,6 @@ height: 55px;
 .footer-left>h6{
     font-size: 12px;
     padding-left: 50px;
-    margin-top: 4px;
 }
 .footer-icons>a>img{
     height: 35px;

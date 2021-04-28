@@ -22,7 +22,7 @@ margin:0 13px;
     transition: 2ms;
 }
 .dsclogo{
-    height: 266px;
+    height: 68px;
     width: auto;
 }
 .active{
@@ -31,7 +31,7 @@ margin:0 13px;
 .navbar{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
     background-color: white;
-    height: 72px;
+    height: 90px;
     padding-left: 8%;
     padding-right: 8%;
 }
@@ -63,9 +63,9 @@ padding-right:19px !important;
         height: 71px;
     }
     .dsclogo{
-        height: 190px;
+        height: 48px;
         position: absolute;
-        top: -56px;
+        top: 20%;
     }
     .navbar-toggler{
         position: absolute;

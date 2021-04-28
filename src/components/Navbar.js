@@ -6,7 +6,7 @@ import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import { NavLink} from 'react-router-dom';
 //logo
-import logo from './assets/images/DSCnavlogo.PNG';
+import logo from './assets/images/greylogo.png';
 
 const Navbar=()=>{
 return(
