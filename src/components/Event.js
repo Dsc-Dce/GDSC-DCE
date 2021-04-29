@@ -1,5 +1,7 @@
 import React, {useState, useRef, useEffect} from "react";
 import "./assets/css/event.css";
+import Card from "./Cardui";
+import techimg from "./assets/images/tech1.jpg";
 
 function Event(){
     const [app_isOpen, app_setIsOpen] = useState(false);
@@ -11,7 +13,30 @@ function Event(){
 
             <div className="cards">
 
-                <div className="event-card" onClick={() => app_setIsOpen(!app_isOpen)}>
+                <Card className="event-card" imgsrc={techimg} title="Event 1" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+
+                <Card className="event-card" imgsrc={techimg} title="Event 2" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+                
+                <Card className="event-card" imgsrc={techimg} title="Event 3" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+
+                <Card className="event-card" imgsrc={techimg} title="Event 4" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+
+                <Card className="event-card" imgsrc={techimg} title="Event 5" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+
+                <Card className="event-card" imgsrc={techimg} title="Event 6" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+
+                <Card className="event-card" imgsrc={techimg} title="Event 7" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+
+                <Card className="event-card" imgsrc={techimg} title="Event 8" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+
+                <Card className="event-card" imgsrc={techimg} title="Event 9" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+
+            </div>
+        </div>
+    );
+}
+
+{/* <div className="event-card" onClick={() => app_setIsOpen(!app_isOpen)}>
                     <div className="image"></div>
                     <span className="date">17th January, 2021</span>
                     <span className="title">App Development</span>
@@ -21,35 +46,6 @@ function Event(){
                             This model opened yay!!!
                         </div>
                     ) : null}
-                </div>
-
-                <div className="event-card" onClick={() => quiz_setIsOpen(!quiz_isOpen)}>
-                    <div className="image"></div>
-                    <span className="date">8th January, 2021</span>
-                    <span className="title">Quiz</span>
-                    <span className="description">Test your knowledge with this QUIZ!!!</span>
-                    {quiz_isOpen ? (
-                        <div className="quiz modal">
-                            This model opened yay!!!
-                        </div>
-                    ) : null}
-                </div>        
-                
-                <div className="event-card" onClick={() => gcr_setIsOpen(!gcr_isOpen)}>
-                    <div className="image"></div>
-                    <span className="date">8th January, 2021</span>
-                    <span className="title">GCR Program</span>
-                    <span className="description">Get a hands on experience on Google Cloud</span>
-                    {gcr_isOpen ? (
-                        <div className="gcr modal">
-                            This model opened yay!!!
-                        </div>
-                    ) : null}
-                </div>
-
-            </div>
-        </div>
-    );
-}
+                </div> */}
 
 export default Event;
