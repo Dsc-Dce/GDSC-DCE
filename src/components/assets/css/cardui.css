@@ -6,7 +6,7 @@
 
 .card{
     width: 23vw;
-    margin: 0.5vw;
+    margin: 0.4vw;
 }
 
 .card-img-top{
@@ -21,4 +21,40 @@
 
 .overflow{
     overflow: hidden;
+}
+
+@media only screen and (max-width: 1030px){
+    .card{
+        width: 31vw;
+    }
+
+    .card-img-top{
+        width: 31vw;
+        height: 20vh;
+        transition: 0.3s;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .card{
+        width: 47vw;
+    }
+
+    .card-img-top{
+        width: 47vw;
+        height: 20vh;
+        transition: 0.3s;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .card{
+        width: 90vw;
+    }
+
+    .card-img-top{
+        width: 90vw;
+        height: 25vh;
+        transition: 0.3s;
+    }
 }

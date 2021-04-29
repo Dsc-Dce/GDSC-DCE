@@ -10,7 +10,7 @@ const Card = props => {
                 <img src={props.imgsrc} className="card-img-top" />
             </div>
             <div className="card-body text-dark">
-                <h3 className="card-title">{props.title}</h3>
+                <h4 className="card-title">{props.title}</h4>
                 <p className="card-text text-secondary">{props.desc}</p>
             </div>
         </div>
