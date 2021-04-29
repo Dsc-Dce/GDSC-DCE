@@ -5,13 +5,13 @@
 }
 
 .card{
-    width: 23vw;
-    margin: 0.4vw;
+    width: 22vw;
+    margin: 0.6vw;
 }
 
 .card-img-top{
     width: 23vw;
-    height: 20vh;
+    height: 10vw;
     transition: 0.3s;
 }
 
@@ -25,36 +25,36 @@
 
 @media only screen and (max-width: 1030px){
     .card{
-        width: 31vw;
+        width: 30.5vw;
     }
 
     .card-img-top{
         width: 31vw;
-        height: 20vh;
+        height: 16vh;
         transition: 0.3s;
     }
 }
 
 @media only screen and (max-width: 750px){
     .card{
-        width: 47vw;
+        width: 46.5vw;
     }
 
     .card-img-top{
         width: 47vw;
-        height: 20vh;
+        height: 24vw;
         transition: 0.3s;
     }
 }
 
 @media only screen and (max-width: 420px){
     .card{
-        width: 90vw;
+        width: 89.5vw;
     }
 
     .card-img-top{
         width: 90vw;
-        height: 25vh;
+        height: 42vw;
         transition: 0.3s;
     }
 }
