@@ -1,4 +1,4 @@
-import React, {useState, useRef, useEffect} from "react";
+import React, {useState} from "react";
 import "./assets/css/event.css";
 import Card from "./Cardui";
 import Modals from "./Modalui";
