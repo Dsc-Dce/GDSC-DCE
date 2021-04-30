@@ -71,8 +71,8 @@ box-shadow:0.77px 0.64px 5px 0px rgba(199,199,199,0.69);
     cursor: pointer;
 }
 .domains>.row>.col-md-4>div:hover{
-    transform: scale(0.9);
-    transition: 0.3s;
+    transform: scale(1.05);
+    transition: 0.3s ease;
 }
 .domains>.row>.col-md-4>div>img{
     height: 75px;

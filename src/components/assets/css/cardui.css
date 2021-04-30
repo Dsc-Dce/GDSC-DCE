@@ -7,6 +7,7 @@
 .card{
     width: 22vw;
     margin: 0.6vw;
+    cursor: pointer;
 }
 
 .card-img-top{

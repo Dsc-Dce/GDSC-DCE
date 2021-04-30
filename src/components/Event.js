@@ -1,19 +1,23 @@
 import React, {useState, useRef, useEffect} from "react";
 import "./assets/css/event.css";
 import Card from "./Cardui";
+import Modals from "./Modalui";
 import techimg from "./assets/images/tech1.jpg";
 
 function Event(){
-    const [app_isOpen, app_setIsOpen] = useState(false);
-    const [quiz_isOpen, quiz_setIsOpen] = useState(false);
-    const [gcr_isOpen, gcr_setIsOpen] = useState(false);
+    const [event1_isOpen, event1_setIsOpen] = useState(false);
     return(
         <div className="event-page">
             <h1 className="event-heading">Past Events</h1>
 
             <div className="cards">
 
-                <Card className="event-card" imgsrc={techimg} title="Event 1" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+                <Card onClick={() => event1_setIsOpen(!event1_isOpen)} className="event-card" imgsrc={techimg} title="Event 1" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+                {event1_isOpen ? (
+                    <div>
+                        <Modals title="Event 1" body="This is the body of the modal of event 1" />
+                    </div>
+                ) : null}
 
                 <Card className="event-card" imgsrc={techimg} title="Event 2" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
                 
