@@ -28,7 +28,7 @@ const Team = () => {
                         />
                         <TeamCard
                             Mname="Rajat Dash"
-                            Mdesc="Website Development"
+                            Mdesc="Web Development"
                             Mphoto={RAJAT}
                             link="https://www.linkedin.com/in/rajatdash"
                         />

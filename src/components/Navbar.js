@@ -20,7 +20,7 @@ return(
     <ul className="navbar-nav mr-auto">
       
       <li className="nav-item ">
-        <NavLink className="nav-link " to="/about">About Us</NavLink>
+        <NavLink className="nav-link " to="/">Home</NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/team">Team</NavLink>

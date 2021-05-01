@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import tech from './assets/images/tech1.jpg';
-import rob from './assets/images/rob1.jpg';
 
 const TeamCard = (props) => {
     return (

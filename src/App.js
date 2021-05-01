@@ -26,9 +26,10 @@ if(!mountedComponent) return <div/>
       {/* <h1>Hello aliens this is DSC-DCE</h1> */}
       <Navbar/>
       <Toggle theme={theme} toggleTheme={themeToggler} tsrc={tsrc}/>
-      <Route path="/about">
+      <Route exact path="/">
         <Aboutus  theme={theme}/>
       </Route>
+      
 
       <Route  path="/events">
         {/* <Event /> */}
