@@ -69,5 +69,19 @@ body{
 .socials i{
     font-size: 20px;
     color: darkcyan;
-    padding: 0 10px;
+    padding: 8px 10px;
+    transition: 0.5s;
+}
+.socials i:hover{
+    animation: grow 1s ;
+    background-color: darkcyan;
+    border-radius: 100%;
+    color: white;
+}
+@keyframes grow {
+    0%{transform: none;}
+    20%{transform: scale(1.15); background-color: darkcyan; color: white; border-radius: 100%;}
+    40%{transform: scale(1); background-color: darkcyan; color: white; border-radius: 100%;}
+    60%{transform: scale(1.07); background-color: darkcyan; color: white; border-radius: 100%;}
+    80%{transform: scale(1); background-color: darkcyan; color: white; border-radius: 100%;}
 }
