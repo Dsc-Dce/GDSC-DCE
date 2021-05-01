@@ -5,7 +5,7 @@ import rob from './assets/images/rob1.jpg';
 const TeamCard = (props) => {
     return (
         <Fragment>
-            <div className="col-md-4 mt-4">
+            <div className="col-lg-4 col-md-6 mt-4">
                 <div className="card">
                     <div className="img1"><img src={tech} alt="tech"/></div>
                     <div className="img2"><img src={props.Mphoto} alt="rob"/></div>
