@@ -16,12 +16,13 @@
 }
 
 #event p{
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 #event img{
     /* margin-top: -50px; */
-    height: 200px;
+    height: 150px;
     border-radius: 15px;
     width: 100%;
 }
@@ -31,20 +32,17 @@
     color: #555;
 }
 
-#event p{
-    font-weight: 500;
-}
 
 #event .card{
     border-radius: 0;
-    box-shadow: 5px 5px 15px #e74c3c;
+    box-shadow: 5px 5px 15px darkcyan;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     width: 100%;
 }
 
 #event .card:hover{
-    background: #e74c3c;
+    background: darkcyan;
     color: #fff;
     border-radius: 5px;
     border: none;
