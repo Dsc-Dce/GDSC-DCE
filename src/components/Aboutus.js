@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import vid from './assets/images/Web Video.MP4';
 import img from './assets/images/GDSC.png';
@@ -11,13 +11,30 @@ import app from './assets/images/mobile-phone.png';
 import ui from './assets/images/ui.png';
 import webd from './assets/images/code.png';
 import cp from './assets/images/coding.png';
-import join from './assets/images/handshake-light.mp4';
+import lightjoin from './assets/images/handshake-light.mp4';
+import darkjoin from  './assets/images/handshake-dark.mp4';
+import lightteam from './assets/images/teamlight.mp4';
+import darkteam from './assets/images/teamdark.mp4';
 import "aos/dist/aos.css";
-const Aboutus=()=>{
+const Aboutus=({theme})=>{
+    const [handshake,setHandshake]=useState('');
+    const [team,setTeam]=useState('');
     useEffect(() => {
         AOS.init();
         AOS.refresh();
       }, []);
+    
+      useEffect(()=>{
+          console.log(theme)
+        if(theme==='light'){
+            setHandshake(lightjoin)
+            setTeam(lightteam)
+        }
+        else{
+            setHandshake(darkjoin)
+            setTeam(darkteam)
+        }
+      },[theme,handshake,team])
     
     return(
         <div className="aboutus">
@@ -26,11 +43,14 @@ const Aboutus=()=>{
                 <source src={vid} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-            {/* <div className="white-overlay"></div> */}
             <img src={img} alt="logo" className="gdsclogo" />
             </div>
             <div className="secondheader d-flex" >
-                <img src={about} alt="illustration" />
+            <video autoPlay loop muted playsInline data-aos="fade-up" style={{height:"284px"}}>
+                <source src={team} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+                {/* <img src={about} alt="illustration" /> */}
                 <div className="text">
                     <img src={logo} alt="" data-aos="fade-up"/>
                     <h4>
@@ -93,7 +113,7 @@ const Aboutus=()=>{
             </div>
             <div className="joinus d-flex ">
             <video autoPlay loop muted playsInline data-aos="fade-up">
-                <source src={join} type="video/mp4" />
+                <source src={handshake} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
                 {/* <img src={join} alt="join us" /> */}

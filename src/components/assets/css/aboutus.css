@@ -166,11 +166,13 @@ box-shadow:0.77px 0.64px 5px 0px rgba(199,199,199,0.69);
 .event-cards>.row>.col-md-3>div{
     box-shadow: 0.77px 0.64px 5px 0px rgb(199 199 199 / 69%);
     border-radius: 11px;
-    background: white;
     padding: 16px 0;
     text-decoration: none !important;
     cursor: pointer;
     width: 270px;
+}
+.social-handles{
+    margin-top: 17px;
 }
 .event-cards>.row>.col-md-3>.buzzquiz:hover{
     background: rgba(67,133,244,0.1);

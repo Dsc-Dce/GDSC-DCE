@@ -1,32 +1,48 @@
-import React from 'react'
+import {React,useState} from 'react'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import { Route } from 'react-router-dom';
-import Event from "./components/Event";
+// import Event from "./components/Event";
 import Team from './components/Team';
 import Aboutus from './components/Aboutus';
 import REvent from './components/REvent';
+import {ThemeProvider} from "styled-components";
+import { GlobalStyles } from "./components/Globalstyle";
+import { lightTheme, darkTheme } from "./components/Themes"
+import  {useDarkMode} from "./components/useDarkMode"
+import Toggle from "./components/Toggler"
 const App = () => {
+ 
+  const [theme, themeToggler, mountedComponent,tsrc] = useDarkMode();
+  const themeMode = theme === 'light' ? lightTheme : darkTheme;
+
+if(!mountedComponent) return <div/>
   return (
+    <ThemeProvider theme={themeMode}>
+    <>
+    <GlobalStyles/>
     <div>
 
       {/* <h1>Hello aliens this is DSC-DCE</h1> */}
       <Navbar/>
+      <Toggle theme={theme} toggleTheme={themeToggler} tsrc={tsrc}/>
       <Route path="/about">
-        <Aboutus/>
+        <Aboutus  theme={theme}/>
       </Route>
 
       <Route  path="/events">
         {/* <Event /> */}
-        <REvent/>
+        <REvent  theme={theme}/>
       </Route>
 
       <Route path="/team">
-        <Team/>
+        <Team  theme={theme}/>
       </Route>
 
       <Footer/>
     </div>
+    </>
+    </ThemeProvider>
   )
 }
 
