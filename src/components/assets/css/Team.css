@@ -43,7 +43,7 @@ body{
 }
 .card:hover .img2 img{
     border-color: darkcyan;
-    transition: .7s;
+    transition: .3s ease-in-out;
 }
 .main-text{
     padding: 10px 0;
