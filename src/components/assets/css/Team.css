@@ -4,9 +4,9 @@ body{
 #heading{
     text-align: center;
 }
-.container{
-    /* max-width: 85%; */
-}
+/* .container{
+    max-width: 85%;
+} */
 
 .profile-area{
     padding: 50px 0;
@@ -23,6 +23,7 @@ body{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     width: 100%;
+    /* opacity: 0.5; */
 }
 .img2 img{
     position: relative;
