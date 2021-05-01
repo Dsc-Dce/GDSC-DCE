@@ -10,7 +10,9 @@ import DIVYANSHI from './assets/images/TEAM PHOTOS/DIVYANSHI OBEROI_Content_Soci
 import RITVIK from './assets/images/TEAM PHOTOS/RITVIK BHADOLA_DISCORD MANAGEMENT.JPG'
 import RIYA from './assets/images/TEAM PHOTOS/RIYA VERMA_Content_Social_Media.jpg'
 import SAHIL from './assets/images/TEAM PHOTOS/SAHILSANDHU_DEVFOLIO.jpg'
-
+import SHRUTI from './assets/images/TEAM PHOTOS/SHRUTI_SHARMA_WebDev_Marketing.jpeg';
+import PRERNA from './assets/images/TEAM PHOTOS/Prerna_Sponsors_Devfolio_Marketing.png';
+import SHIVAM from './assets/images/TEAM PHOTOS/SHIVAM MONGA_Design & UI_UX Lead.jpg';
 const Team = () => {
     return (
         <Fragment>
@@ -22,48 +24,74 @@ const Team = () => {
                             Mname="Sejal Khanna"
                             Mdesc="DSC lead"
                             Mphoto={SEJAL}
+                            link="https://www.linkedin.com/in/sejal-khanna-ab10b1171"
                         />
                         <TeamCard
                             Mname="Rajat Dash"
                             Mdesc="Website Development"
                             Mphoto={RAJAT}
+                            link="https://www.linkedin.com/in/rajatdash"
                         />
                         <TeamCard
                             Mname="Ankit Dhawan"
-                            Mdesc="Community Management"
+                            Mdesc=" Mobile App Development"
                             Mphoto={ANKIT}
+                            link="https://www.linkedin.com/in/ankit-dhawan-17b552161/"
                         />
                         <TeamCard
                             Mname="Aman Yadav"
                             Mdesc="Design Team lead"
                             Mphoto={AMAN}
+                            link=""
                         />
                         <TeamCard
                             Mname="Ayush Gupta"
-                            Mdesc="Design Team lead"
+                            Mdesc="Android Development"
                             Mphoto={AYUSH}
+                            link=" https://www.linkedin.com/in/ayush-gupta-401ab3173/"
                         />
                         <TeamCard
                             Mname="Diyanshi Oberoi"
                             Mdesc="Content and Social Media"
                             Mphoto={DIVYANSHI}
+                            link="https://www.linkedin.com/in/divyanshi-oberoi-a006331aa"
                         />
                         <TeamCard
                             Mname="Ritvik Bhadola"
-                            Mdesc="Discord Management"
+                            Mdesc="Ethical Hacking"
                             Mphoto={RITVIK}
+                            link=""
                         />
                         <TeamCard
                             Mname="Riya Verma"
                             Mdesc="Content and Social Media"
                             Mphoto={RIYA}
+                            link="http://linkedin.com/in/riya-verma-7495a91aa"
+                        />
+                        <TeamCard
+                            Mname="Shruti Sharma"
+                            Mdesc="Web Development"
+                            Mphoto={SHRUTI}
+                            link="https://www.linkedin.com/in/shruti-sharma-1b1b131a6"
                         />
                         <TeamCard
                             Mname="Sahil Sandhu"
-                            Mdesc="Devfolio"
+                            Mdesc="ML/AI lead"
                             Mphoto={SAHIL}
+                            link=""
                         />
-
+                         <TeamCard
+                            Mname="Shivam Monga"
+                            Mdesc="Design and UI/UX Lead"
+                            Mphoto={SHIVAM}
+                            link="https://www.linkedin.com/in/theshivammonga/"
+                        />
+                         <TeamCard
+                            Mname="Prerna Mishra"
+                            Mdesc="ML/AI"
+                            Mphoto={PRERNA}
+                            link="https://www.linkedin.com/in/m-prerna"
+                        />
                     </div>
                 </div>
             </div>

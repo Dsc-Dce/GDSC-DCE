@@ -71,7 +71,7 @@ box-shadow:0.77px 0.64px 5px 0px rgba(199,199,199,0.69);
     cursor: pointer;
 }
 .domains>.row>.col-md-4>div:hover{
-    transform: scale(1.05);
+    transform: scale(0.9);
     transition: 0.3s ease;
 }
 .domains>.row>.col-md-4>div>img{
@@ -240,12 +240,15 @@ color: #EA4435 !important;
 .event-cards>.row{
     padding: 0 30px;
 }
-
+.joinus>video{
+    height: 284px;
+    margin-top: 28px;
+}
 @media only screen and (max-width: 600px) {
     .gdsclogo{
         height: 100px;
         top: 18%;
-        left: 33%;
+        left: 35%;
     }
     .secondheader{
         flex-direction: column;
@@ -308,5 +311,8 @@ color: #EA4435 !important;
     .event-cards>.row>.col-md-3{
         margin-bottom: 40px;
     }
-    
+    .joinus>video{
+        height: 181px;
+        margin-top: 0;
+    }
 }
