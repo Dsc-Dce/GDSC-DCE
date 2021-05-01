@@ -1,0 +1,56 @@
+#event{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+#event h1{
+    font-size: 46px;
+    color:#555;
+}
+
+#event h3{
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+#event p{
+    font-size: 24px;
+}
+
+#event img{
+    /* margin-top: -50px; */
+    height: 200px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+#event i{
+    font-size: 26px;
+    color: #555;
+}
+
+#event p{
+    font-weight: 500;
+}
+
+#event .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    width: 100%;
+}
+
+#event .card:hover{
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#event .card:hover h3, #event .card:hover i{
+    color: #fff;
+}

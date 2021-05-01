@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Event from "./components/Event";
 import Team from './components/Team';
 import Aboutus from './components/Aboutus';
+import REvent from './components/REvent';
 const App = () => {
   return (
     <div>
@@ -16,7 +17,8 @@ const App = () => {
       </Route>
 
       <Route  path="/events">
-        <Event />
+        {/* <Event /> */}
+        <REvent/>
       </Route>
 
       <Route path="/team">
