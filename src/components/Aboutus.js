@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import AOS from "aos";
+import AOS from "../../node_modules/aos";
 import vid from './assets/images/Web Video.MP4';
 import img from './assets/images/GDSC.png';
 import about from './assets/images/about-svg.png';
