@@ -12,9 +12,11 @@ const App = () => {
 
       {/* <h1>Hello aliens this is DSC-DCE</h1> */}
       <Navbar/>
-      <Route path="/about">
+
+      <Route exact path="/">
         <Aboutus/>
       </Route>
+      
 
       <Route  path="/events">
         {/* <Event /> */}

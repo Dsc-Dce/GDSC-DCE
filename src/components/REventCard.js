@@ -10,28 +10,6 @@ const REventCard = (props) => {
                         <img src={rob} alt="img" className=" mb-3"/>
                         <h3>{props.etitle}</h3>
                         <p>{props.edesc}</p>
-                        <div className="d-flex flex-row justify-content-center">
-                            <div className="p-3">
-                                <a href="#">
-                                    <i className="fa fa-facebook"></i>
-                                </a>
-                            </div>
-                            <div className="p-3">
-                                <a href="#">
-                                    <i className="fa fa-instagram"></i>
-                                </a>
-                            </div>
-                            <div className="p-3">
-                                <a href="#">
-                                    <i className="fa fa-linkedin"></i>
-                                </a>
-                            </div>
-                            <div className="p-3">
-                                <a href="#">
-                                    <i className="fa fa-twitter"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
