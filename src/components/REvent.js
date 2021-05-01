@@ -11,10 +11,10 @@ const REvent = () => {
                     <h1>Past Events</h1>
                     <div className="row mt-5">
 
-                        <REventCard etitle="Event 1" edesc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga."/>
-                        <REventCard etitle="Event 2" edesc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga."/>
-                        <REventCard etitle="Event 3" edesc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga."/>
-                        <REventCard etitle="Event 4" edesc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga."/>
+                        <REventCard etitle="CoViHaCk'21" edesc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga."/>
+                        <REventCard etitle="BuzzQuizz" edesc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga."/>
+                        <REventCard etitle="App-Dev" edesc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga."/>
+                        <REventCard etitle="Ui/Ux Design" edesc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, fuga."/>
 
                     </div>
                 </div>
