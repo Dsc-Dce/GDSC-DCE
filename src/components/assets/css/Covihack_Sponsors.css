@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.sponsors{
+    margin: 30px 0;
+}
+
+.spons-img{
+    width: 100%;
+}
+
+.row{
+    margin: 0.7vw 0;
+}
+
+.spons-row{
+    padding: 0;
+    margin: 1vw 0;
+}
+
+.spons-g{
+    height: 25px;
+    display:flex;
+    align-items: center;
+}
+
+.spons-s{
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.spons-row-img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.row-g, .row-s{margin: 1vw 0;}
+
+.row-1{height: 29px;}
+
+.row-2{height: 37px;}
+
+.row-3{height: 37px;}
+
+.row-4{height: 45px;}
+
+.gold-title , .silver-title {
+    font-size: 25px;
+    color: grey;
+}
