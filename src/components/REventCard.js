@@ -7,7 +7,7 @@ const REventCard = (props) => {
             <div className="col-lg-4 col-md-6 mb-3">
                 <div className="card">
                     <div className="card-body">
-                        <img src={rob} alt="img" className=" mb-3"/>
+                        <img src={props.eimg} alt="img" className=" mb-3"/>
                         <h3>{props.etitle}</h3>
                         <p>{props.edesc}</p>
                     </div>

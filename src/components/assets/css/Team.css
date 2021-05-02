@@ -19,6 +19,10 @@ body{
     border-radius: 15px;
     background: none;
 }
+.card:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .img1 img{
     height: 175px;
     border-top-right-radius: 15px;
