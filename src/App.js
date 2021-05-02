@@ -11,6 +11,7 @@ import { GlobalStyles } from "./components/Globalstyle";
 import { lightTheme, darkTheme } from "./components/Themes"
 import  {useDarkMode} from "./components/useDarkMode"
 import Toggle from "./components/Toggler"
+import CoviHack from './components/CoviHack';
 const App = () => {
  
   const [theme, themeToggler, mountedComponent,tsrc] = useDarkMode();
@@ -38,6 +39,10 @@ if(!mountedComponent) return <div/>
 
       <Route path="/team">
         <Team  theme={theme}/>
+      </Route>
+
+      <Route path="/covihack">
+        <CoviHack/>
       </Route>
 
       <Footer/>
