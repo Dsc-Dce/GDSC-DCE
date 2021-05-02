@@ -14,7 +14,7 @@ const CoviHack_Schedule = () => {
                                 your browser does not support tag.
                             </video>
                         </div>
-                        <div className="col-md-5 mt-4 d-flex flex-column">
+                        <div className="col-md-5 mt-4">
                             <h3 className="text-center mb-3">Schedule for CoviHack'21</h3>
                             <hr/>
                             <div>
