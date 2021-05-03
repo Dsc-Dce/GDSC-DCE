@@ -23,7 +23,7 @@ function Event(){
 
             <div className="cards">
 
-                <Card onClick={(e) => {handlecardclick(e)}} className="event-card" imgsrc={techimg} title="Event 1" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
+                <Card onClick={(e)=>{handlecardclick(e)}} className="event-card" imgsrc={techimg} title="Event 1" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat fugit quis sint consectetur fugiat distinctio totam assumenda corrupti mollitia." />
               
                     <div is="modal">
                         <Modals title="Event 1" body="This is the body of the modal of event 1" />

@@ -1,0 +1,51 @@
+
+.coviheader-text{
+    position:absolute;
+    top:39%;
+    left:23%;
+    text-align:center;
+    z-index:2;
+}
+.coviheader-text>h2, .coviheader-text>h3{
+    color:white;
+    font-size:27px;
+    font-weight:500;
+}
+.coviheader-text>h1{
+    font-size:127px;
+    text-shadow:rgb(0 0 0 / 30%) 0px 5px 0px;
+    color:#0EF4B2;
+    font-weight: 900;
+}
+.coviheader-text>h3{
+    margin-bottom: 90px;
+}
+.coviheader-text>a{
+    color: white;
+    background: #4a5ad6;
+    padding: 10px 85px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 2px 0px;
+    border-radius: 10px;
+}
+.coviheader-text>a:hover{
+    text-decoration: none !important;
+}
+@media only screen and (max-width: 600px) {
+.coviheader-text{ 
+    top: 16%;
+    left: 16%;
+}
+.coviheader-text>h2,.coviheader-text>h3{
+    font-size: 12px;
+}
+.coviheader-text>h1{
+    font-size: 38px;
+}
+.coviheader-text>h3{
+    margin-bottom: 17px;
+}
+.coviheader-text>a{
+    padding: 4px 36px;
+    font-size: 14px;
+}
+}

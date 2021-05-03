@@ -247,9 +247,12 @@ color: #EA4435 !important;
     margin-top: 28px;
 }
 @media only screen and (max-width: 600px) {
+    #toggler{
+        height:45px !important;
+    }
     .gdsclogo{
         height: 100px;
-        top: 18%;
+        top: 16%;
         left: 35%;
     }
     .secondheader{

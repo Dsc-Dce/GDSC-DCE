@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { func, string } from 'prop-types';
 import styled from "styled-components"
-
+import './assets/css/aboutus.css';
 
 const Toggle = ({theme,  toggleTheme,tsrc }) => {
 
@@ -14,6 +14,10 @@ const Toggle = ({theme,  toggleTheme,tsrc }) => {
     background:transparent;
     top:20px;
     right:25px;
+    @media only screen and (max-width: 600px) {
+        top:81px;
+        right:0;
+       
     }
   `;
     return (
