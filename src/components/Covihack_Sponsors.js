@@ -3,7 +3,7 @@ import "./assets/css/Covihack_Sponsors.css";
 import img from "./assets/images/About.jpg";
 import devfolio from "./assets/CoviHack Page assets/Sponsors/devfolio.png";
 import gfg from "./assets/CoviHack Page assets/Sponsors/gfg.png";
-import skillenza from "./assets/CoviHack Page assets/Sponsors/skillenza.png";
+// import skillenza from "./assets/CoviHack Page assets/Sponsors/skillenza.png";
 import wolfram from "./assets/CoviHack Page assets/Sponsors/wolfram.png";
 import echoar from "./assets/CoviHack Page assets/Sponsors/echoAR.png";
 import progate from "./assets/CoviHack Page assets/Sponsors/progate.png";
@@ -42,7 +42,7 @@ const Covihack_Sponsors = () =>{
                             </div>
 
                             <div className="row spons-row row-1">
-                                <div className="col-4 spons-s" ><img src={skillenza} className="spons-row-img" /></div>
+                                {/* <div className="col-4 spons-s" ><img src={skillenza} className="spons-row-img" /></div> */}
                                 <div className="col-4 spons-s" ><img src={wolfram} className="spons-row-img" /></div>
                                 <div className="col-4 spons-s" ><img src={echoar} className="spons-row-img" /></div>
                             </div>

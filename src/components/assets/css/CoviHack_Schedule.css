@@ -1,3 +1,28 @@
 #covivid{
     width:55%;
+    /* height: 100%; */
+}
+
+.greenbox{
+    width: 200px;
+    height: 300px;
+    background:rgb(0, 255, 170);
+    position: absolute;
+    margin-left: 117px;
+    margin-top: 242px;
+}
+
+
+.schedule h3{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #777;
+}
+.schedule span{
+    color: rgb(0, 110, 110);
+}
+
+.schedule h5{
+    color: rgb(0, 110, 110);
+    font-weight: bolder;
 }
