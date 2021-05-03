@@ -5,7 +5,7 @@ import './assets/css/CoviHack_Schedule.css'
 const CoviHack_Schedule = () => {
     return (
         <Fragment>
-            <div className="schedule mt-3 mb-3 ">
+            <div className="schedule mt-5 mb-5 ">
                 <div className="container">
                     <div className="row">
                     <div className="greenbox"></div>
