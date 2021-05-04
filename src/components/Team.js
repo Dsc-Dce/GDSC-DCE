@@ -42,7 +42,7 @@ const Team = () => {
                             Mname="Aman Yadav"
                             Mdesc="Design Team lead"
                             Mphoto={AMAN}
-                            link=""
+                            link="https://www.linkedin.com/in/aman-yadav00123/"
                         />
                         <TeamCard
                             Mname="Ayush Gupta"
@@ -79,7 +79,7 @@ const Team = () => {
                             Mname="Sahil Sandhu"
                             Mdesc="ML/AI lead"
                             Mphoto={SAHIL}
-                            link=""
+                            link="https://www.linkedin.com/in/the-sahil-sandhu/"
                         />
                          <TeamCard
                             Mname="Shivam Monga"

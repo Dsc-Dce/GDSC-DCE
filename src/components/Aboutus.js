@@ -121,8 +121,8 @@ const Aboutus=({theme})=>{
                     <h3 data-aos="fade-up">Join us!</h3>
                     <h6>Stay on the same page, be focused, and organized to learn more quickly by bringing all of communication, resources, and event updates into one place.</h6>
                     <div className="social-handles" data-aos="fade-up">
-                        <a href="#" className="discord">Discord</a>
-                        <a href="#" className="wp">Whatsapp</a>
+                        <a href="https://discord.gg/encvmf7gEn" className="discord">Discord</a>
+                        <a href="https://chat.whatsapp.com/LkvrF77XpK7IUwSs9WHy4t" className="wp">Whatsapp</a>
                     </div>
                 </div>
             </div>
