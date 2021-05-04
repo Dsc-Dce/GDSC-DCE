@@ -38,7 +38,7 @@ const Covihack_Sponsors = () =>{
                         <div className="row-s">
 
                             <div className="row">
-                                <div className="col silver-title">silver</div>
+                                <div className="col silver-title">Silver</div>
                             </div>
 
                             <div className="row spons-row row-1">

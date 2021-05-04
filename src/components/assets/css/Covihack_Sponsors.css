@@ -50,3 +50,19 @@
     font-size: 25px;
     color: grey;
 }
+
+@media only screen and (max-width: 1200px) {
+    .row-3{height: 33px;}
+}
+
+@media only screen and (max-width: 992px) {
+    .row-1{height: 22px;}
+
+    .row-2{height: 31px;}
+
+    .row-3{height: 24px;}
+
+    .row-4{height: 32px;}
+
+    .spons-g{ height: 22px; }
+}
