@@ -32,7 +32,7 @@ if(!mountedComponent) return <div/>
       </Route>
       
 
-      <Route  path="/events">
+      <Route path="/events">
         {/* <Event /> */}
         <REvent  theme={theme}/>
       </Route>
