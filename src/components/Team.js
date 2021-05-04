@@ -66,7 +66,7 @@ const Team = () => {
                             Mname="Ritvik Bhadola"
                             Mdesc="Ethical Hacking"
                             Mphoto={RITVIK}
-                            link=""
+                            link="#"
                         />
                         <TeamCard
                             Mname="Riya Verma"
@@ -93,6 +93,12 @@ const Team = () => {
                             Mphoto={PRERNA}
                             link="https://www.linkedin.com/in/m-prerna"
                         />
+                        {/* <TeamCard
+                        Mname="Saarthak Harit"
+                        Mdesc="Ethical Hacking"
+                        Mphoto=""
+                        link=""
+                        /> */}
                     </div>
                 </div>
             </div>

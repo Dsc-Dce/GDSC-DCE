@@ -1,8 +1,8 @@
 
 .coviheader-text{
     position:absolute;
-    top:39%;
-    left:23%;
+    top:34%;
+    left:22%;
     text-align:center;
     z-index:2;
 }
@@ -29,8 +29,19 @@
 }
 .coviheader-text>a:hover{
     text-decoration: none !important;
+    filter: brightness(0.8);
+}
+.covi-logo{
+    position: absolute;
+    height: 149px;
+    top: 80%;
+    left: 0;
 }
 @media only screen and (max-width: 600px) {
+    .covi-logo{
+        height: 60px;
+        top: 34%;
+    }
 .coviheader-text{ 
     top: 16%;
     left: 16%;

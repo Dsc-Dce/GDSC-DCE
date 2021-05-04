@@ -26,3 +26,12 @@
     color: rgb(0, 110, 110);
     font-weight: bolder;
 }
+@media only screen and (max-width: 600px) {
+.greenbox{
+ display: none;
+}
+.schedule h3{
+    margin-top: 20px;
+    font-size: 26px;
+}
+}

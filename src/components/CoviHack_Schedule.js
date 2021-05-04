@@ -1,8 +1,14 @@
-import React, { Fragment } from 'react'
+import React, { Fragment,useEffect } from 'react'
 import COVIVID from './assets/CoviHack Page assets/Coming Soon Reel 1080x1920.mp4'
 import './assets/css/CoviHack_Schedule.css'
-
+import AOS from "../../node_modules/aos";
+import "aos/dist/aos.css";
 const CoviHack_Schedule = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+    
     return (
         <Fragment>
             <div className="schedule mt-5 mb-5 ">
@@ -11,12 +17,12 @@ const CoviHack_Schedule = () => {
                     <div className="greenbox"></div>
                         <div className="col-md-6 d-flex justify-content-center">
 
-                            <video playsInline autoPlay loop muted id="covivid" className="mt-3 mb-3">
+                            <video playsInline autoPlay loop muted id="covivid" data-aos="fade-right" className="mt-3 mb-3">
                                 <source src={COVIVID} type="video/mp4"/>
                                 your browser does not support tag.
                             </video>
                         </div>
-                        <div className="col-md-5 mt-4 ">
+                        <div className="col-md-5 mt-4 " data-aos="fade-left">
                             <h3 className="text-center mb-3">Schedule for <span>CoviHack'21</span></h3>
                             <hr/>
                             <div>

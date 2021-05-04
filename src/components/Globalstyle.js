@@ -16,5 +16,8 @@ export const GlobalStyles = createGlobalStyle`
   .aboutus>.whydsc, .aboutus>.upcomingevents{
     background: ${({ theme }) => theme.bodybeige};
   }
-  
+  .covihack-page{
+    background:white !important;
+    width:100%;
+  }
   `
