@@ -21,7 +21,7 @@ const Covihack_Sponsors = () =>{
         <div className="sponsors">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-5 ">
+                    <div className="col-md-5 sponsors-img">
                         <div className="row-g">
 
                             <div className="row">
