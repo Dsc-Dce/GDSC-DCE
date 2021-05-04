@@ -1,4 +1,144 @@
 .track-title img{
     width: 65px;
     height: 65px;
+    margin-right: 3vw;
+}
+
+.tracks{
+    background-color: darkcyan;
+    padding: 40px 0;
+    color: white;
+}
+
+.track-title{
+    border-right: 2px solid white; 
+    text-align: right;
+    
+}
+
+.blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+    height: 6vw;
+    padding-left: 2vw;
+}
+
+@media only screen and (max-width: 1410px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 9vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 11vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 18vw;
+        padding-left: 2vw;
+    }
+
+    .track-title img{
+        width: 45px;
+        height: 45px;
+        margin-right: 2vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 20vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 30vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 35vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 39vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 44vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 48vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 55vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 60vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 452px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 67vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 72vw;
+        padding-left: 2vw;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 78vw;
+        padding-left: 2vw;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 82vw;
+        padding-left: 2vw;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 354px) {
+    .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
+        height: 95vw;
+        padding-left: 2vw;
+        font-size: 13px;
+    }
 }

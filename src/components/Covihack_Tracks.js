@@ -1,19 +1,21 @@
 import React from "react";
 import "./assets/css/Covihack_Tracks.css";
 import blockchain from "./assets/CoviHack Page assets/Vectors/blockchain.png";
+import ai from "./assets/CoviHack Page assets/Vectors/artificial-intelligence.png";
+
 
 const Covihack_Tracks = () => {
     return(
         <div className="tracks">
             <div className="container">
-                <div className="row tracks-head">Tracks</div>
+                <div className="row tracks-head"><h2>Tracks</h2></div>
                 <div className="row">
-                    <div className="col-3 track-title">
+                    <div className="col-5 track-title">
                         <div className="row blockchain">
                             <img src={blockchain} /> Blockchain
                         </div>
                         <div className="row ai">
-                            <img src={blockchain} /> Artificial Intelligence
+                            <img src={ai} /> Artificial Intelligence
                         </div>
                         <div className="row ar-vr">
                             <img src={blockchain} /> AR/VR
@@ -35,7 +37,7 @@ const Covihack_Tracks = () => {
                         </div>
                     </div>
 
-                    <div className="col-9 track-title">
+                    <div className="col-7 track-title-desc">
                         <div className="row blockchain">
                             Today's most exciting use cases for blockchain technology extend far beyond payments and digital currency. With the advent of "smart contracts" and turning-complete frameworks, blockchain technology has evolved far beyond just bitcoins. It is time to join the Web 3.0 revolution!
                         </div>
