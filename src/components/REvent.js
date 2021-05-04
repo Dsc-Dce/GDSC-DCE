@@ -7,6 +7,10 @@ import APP from './assets/images/events_image/app_dev_vo.jpeg'
 import LETCA from './assets/images/events_image/lets_code_mobile_app.jpeg'
 import KGCP from './assets/images/events_image/kgcp.jpeg'
 import QCJ from './assets/images/events_image/QCJ.jpeg'
+import DODSC from './assets/images/events_image/day_out_with DSC.jpeg'
+import GITHI from './assets/images/events_image/intro_to_git_and_github.jpeg'
+import BUZZ from './assets/images/events_image/buzz_quiz.jpeg'
+import WOW from './assets/images/events_image/DSC_wow.png'
 
 const REvent = () => {
     return (
@@ -42,9 +46,29 @@ const REvent = () => {
                             eimg={KGCP}
                         />
                         <REventCard 
-                            etitle="Lets Code App" 
+                            etitle="Android Study Jam 3" 
+                            edesc="Speaker : Anonymous Dhawan"
+                            eimg={LETCA}
+                        />
+                        <REventCard 
+                            etitle="Android Study Jam 2" 
+                            edesc="Speaker : Kishore Theeraj"
+                            eimg={LETCA}
+                        />
+                        <REventCard 
+                            etitle="Android Study Jam 1" 
                             edesc="Speaker : Ayushma Agarwal"
                             eimg={LETCA}
+                        />
+                        <REventCard 
+                            etitle="DSC WOW" 
+                            edesc="Held on : Dec 03, 2020"
+                            eimg={WOW}
+                        />
+                        <REventCard 
+                            etitle="Buzz Quiz" 
+                            edesc="Held on : Nov 10, 2020"
+                            eimg={BUZZ}
                         />
                         <REventCard 
                             etitle="App-Dev Workshop" 
@@ -55,6 +79,16 @@ const REvent = () => {
                             etitle="Ui/Ux Workshop" 
                             edesc="Speaker : Kishore Theeraj"
                             eimg={UX}
+                        />
+                        <REventCard 
+                            etitle="Git & Github Intro" 
+                            edesc="Speaker : Yash Khare"
+                            eimg={GITHI}
+                        />
+                        <REventCard 
+                            etitle="Day Out with DSC" 
+                            edesc="Held on : Sep 15, 2020"
+                            eimg={DODSC}
                         />
 
                     </div>
