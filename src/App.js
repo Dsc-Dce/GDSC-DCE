@@ -14,7 +14,7 @@ import Toggle from "./components/Toggler"
 import CoviHack from './components/CoviHack';
 const App = () => {
  
-  const [theme, themeToggler, mountedComponent,tsrc] = useDarkMode();
+  const [theme, themeToggler, mountedComponent,tsrc,team,handshake] = useDarkMode();
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
 
 if(!mountedComponent) return <div/>
@@ -22,13 +22,13 @@ if(!mountedComponent) return <div/>
     <ThemeProvider theme={themeMode}>
     <>
     <GlobalStyles/>
-    <div>
+    <div style={{width:"100%"}}>
 
       {/* <h1>Hello aliens this is DSC-DCE</h1> */}
       <Navbar/>
       <Toggle theme={theme} toggleTheme={themeToggler} tsrc={tsrc}/>
       <Route exact path="/">
-        <Aboutus  theme={theme}/>
+        <Aboutus  theme={theme} handshake={handshake} team={team}/>
       </Route>
       
 

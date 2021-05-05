@@ -14,19 +14,23 @@ import cp from './assets/images/coding.png';
 import lightjoin from './assets/images/handshake-light.mp4';
 import darkjoin from  './assets/images/handshake-dark.mp4';
 import lightteam from './assets/images/teamlight.mp4';
-import darkteam from './assets/images/teamdark.mp4';
+import darkteam from './assets/images/team-dark.mp4';
+
 import "aos/dist/aos.css";
-const Aboutus=({theme})=>{
-    const [handshake,setHandshake]=useState('');
-    const [team,setTeam]=useState('');
+const Aboutus=(props)=>{
+    const [handshake, setHandshake]=useState(lightjoin)
+        const [team, setTeam]=useState(lightteam)
+        const [mountedComponent, setMountedComponent] = useState(false)
+        
     useEffect(() => {
+       
         AOS.init();
         AOS.refresh();
       }, []);
     
-      useEffect(()=>{
-          console.log(theme)
-        if(theme==='light'){
+      React.useEffect(()=>{
+          console.log(props.theme)
+        if(props.theme==='light'){
             setHandshake(lightjoin)
             setTeam(lightteam)
         }
@@ -34,7 +38,15 @@ const Aboutus=({theme})=>{
             setHandshake(darkjoin)
             setTeam(darkteam)
         }
-      },[theme,handshake,team])
+     
+       
+        const localhs = window.localStorage.getItem('handshake');
+        localhs && setHandshake(localhs)
+        // setTeam(team)
+        setMountedComponent(true)
+        // const localt = window.localStorage.getItem('team');
+        // localt && setTeam(localt)
+      },[props.theme])
     
     return(
         <div className="aboutus">
@@ -56,7 +68,7 @@ const Aboutus=({theme})=>{
                     <h4>
                     The<span className="bold"> Developer Student Clubs (DSC)</span> program is a grassroots channel through which we provide development skills for students, towards employability. In addition to workshops, we also provide an opportunity for students to apply their newly gained skills to develop solutions for local organizations and then provide visibility via showcases.
                     </h4>
-                    <a href="#" data-aos="fade-up">Register for CoViHaCk'21</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSctJOn7QJnGbSpzTisjcs6s270Yut026KQUxYXD8TMYANIKMw/viewform" data-aos="fade-up">Register for CoViHaCk'21</a>
                 </div>
             </div>
             <div className="whydsc d-flex">
@@ -126,7 +138,7 @@ const Aboutus=({theme})=>{
                     </div>
                 </div>
             </div>
-            <div className="upcomingevents">
+            {/* <div className="upcomingevents">
                 <h3>Upcoming Events</h3>
                 <div className="event-cards">
                     <div className="row">
@@ -180,8 +192,9 @@ const Aboutus=({theme})=>{
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
+
 export default Aboutus;

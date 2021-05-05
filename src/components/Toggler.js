@@ -14,6 +14,7 @@ const Toggle = ({theme,  toggleTheme,tsrc }) => {
     background:transparent;
     top:20px;
     right:25px;
+    
     @media only screen and (max-width: 600px) {
         top:81px;
         right:0;
@@ -24,7 +25,7 @@ const Toggle = ({theme,  toggleTheme,tsrc }) => {
         <>
         
         <Button onClick={toggleTheme} >
-         <img src={tsrc} alt="toggle" id="toggle"  style={{height:"50px",borderRadius:"30px"}}/>
+         <img src={tsrc} alt="toggle" id="toggle"  style={{borderRadius:"30px",height:"50px"}}/>
         </Button>
         </>
     );

@@ -51,6 +51,12 @@ const Team = () => {
                             link=" https://www.linkedin.com/in/ayush-gupta-401ab3173/"
                         />
                         <TeamCard
+                            Mname="Shruti Sharma"
+                            Mdesc="Web Development"
+                            Mphoto={SHRUTI}
+                            link="https://www.linkedin.com/in/shruti-sharma-1b1b131a6"
+                        />
+                        <TeamCard
                             Mname="Diyanshi Oberoi"
                             Mdesc="Content and Social Media"
                             Mphoto={DIVYANSHI}
@@ -60,7 +66,7 @@ const Team = () => {
                             Mname="Ritvik Bhadola"
                             Mdesc="Ethical Hacking"
                             Mphoto={RITVIK}
-                            link=""
+                            link="#"
                         />
                         <TeamCard
                             Mname="Riya Verma"
@@ -68,12 +74,7 @@ const Team = () => {
                             Mphoto={RIYA}
                             link="http://linkedin.com/in/riya-verma-7495a91aa"
                         />
-                        <TeamCard
-                            Mname="Shruti Sharma"
-                            Mdesc="Web Development"
-                            Mphoto={SHRUTI}
-                            link="https://www.linkedin.com/in/shruti-sharma-1b1b131a6"
-                        />
+
                         <TeamCard
                             Mname="Sahil Sandhu"
                             Mdesc="ML/AI lead"
@@ -92,6 +93,12 @@ const Team = () => {
                             Mphoto={PRERNA}
                             link="https://www.linkedin.com/in/m-prerna"
                         />
+                        {/* <TeamCard
+                        Mname="Saarthak Harit"
+                        Mdesc="Ethical Hacking"
+                        Mphoto=""
+                        link=""
+                        /> */}
                     </div>
                 </div>
             </div>

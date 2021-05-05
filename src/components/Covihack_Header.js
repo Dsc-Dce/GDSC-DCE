@@ -1,8 +1,15 @@
-import React from 'react';
+import {React,useEffect} from 'react';
 import vid from './assets/CoviHack Page assets/tech.mp4';
+import covi from './assets/CoviHack Page assets/covihack21.png';
 import './assets/css/Covihack_header.css';
-
+import AOS from "../../node_modules/aos";
+import "aos/dist/aos.css";
 const Covihack_Header=()=>{
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+    
     return(
         <div className="coviheader">
              <video autoPlay loop muted playsInline style={{width:"100%",top:"0"}}>
@@ -12,10 +19,11 @@ const Covihack_Header=()=>{
            
             <div className="coviheader-text">
                 <h2>DSC DCE Presents</h2>
-                <h1>COVIHACK'21</h1>
+                <h1 data-aos="fade-up">COVIHACK'21</h1>
                 <h3>Starting soon..</h3>
-                <a href="#">Go to Devfolio</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSctJOn7QJnGbSpzTisjcs6s270Yut026KQUxYXD8TMYANIKMw/viewform">Register now!</a>
             </div>
+            <img src={covi} alt="covihack"  className="covi-logo"/>
         </div>
     );
 }

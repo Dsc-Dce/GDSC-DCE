@@ -1,6 +1,6 @@
-import React from "react";
+import {React,useEffect} from "react";
 import "./assets/css/Covihack_Sponsors.css";
-import img from "./assets/images/About.jpg";
+import img from "./assets/CoviHack Page assets/sponsor.jpg";
 import devfolio from "./assets/CoviHack Page assets/Sponsors/devfolio.png";
 import gfg from "./assets/CoviHack Page assets/Sponsors/gfg.png";
 // import skillenza from "./assets/CoviHack Page assets/Sponsors/skillenza.png";
@@ -14,14 +14,19 @@ import cncf from "./assets/CoviHack Page assets/Sponsors/cncf.png";
 import jetbrains from "./assets/CoviHack Page assets/Sponsors/jetbrains.png";
 import givemycert from "./assets/CoviHack Page assets/Sponsors/givemycert.jpeg";
 import hoverrobotix from "./assets/CoviHack Page assets/Sponsors/hoverrobotix.png";
-
+import AOS from "../../node_modules/aos";
+import "aos/dist/aos.css";
 
 const Covihack_Sponsors = () =>{
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return(
         <div className="sponsors">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-5 sponsors-img">
+                    <div className="col-md-5 sponsors-img" data-aos="fade-up">
                         <div className="row-g">
 
                             <div className="row">
@@ -66,7 +71,7 @@ const Covihack_Sponsors = () =>{
 
                         </div>
                     </div>
-                    <div className="col-md-7"><img src={img} className="spons-img" /></div>
+                    <div className="col-md-7" data-aos="fade-up"><img src={img} className="spons-img" /></div>
                 </div>
             </div>
         </div>

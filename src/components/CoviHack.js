@@ -5,11 +5,13 @@ import Covihack_Sponsors from "./Covihack_Sponsors";
 import Covihack_Header from './Covihack_Header';
 const CoviHack = () => {
     return (
-        <Fragment>
+        <Fragment >
+            <div className="covihack-page">
             <Covihack_Header/>
             <CoviHack_Schedule/>
             <Covihack_Tracks />
             <Covihack_Sponsors />
+            </div>
         </Fragment>
     )
 }

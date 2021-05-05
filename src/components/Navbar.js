@@ -20,16 +20,16 @@ return(
     <ul className="navbar-nav mr-auto">
       
       <li className="nav-item ">
-        <NavLink className="nav-link " to="/">Home</NavLink>
+        <NavLink className="nav-link " data-toggle="collapse" data-target=".navbar-collapse"  to="/">Home</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/team">Team</NavLink>
+        <NavLink className="nav-link" data-toggle="collapse" data-target=".navbar-collapse"  to="/team">Team</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/events">Events</NavLink>
+        <NavLink className="nav-link" data-toggle="collapse" data-target=".navbar-collapse"  to="/events">Events</NavLink>
       </li>
       <li className="nav-item events-link">
-        <NavLink className="nav-link " to="/covihack">CoviHack'21</NavLink>
+        <NavLink className="nav-link " data-toggle="collapse" data-target=".navbar-collapse"  to="/covihack">CoviHack'21</NavLink>
       </li>
     </ul>
   </div>

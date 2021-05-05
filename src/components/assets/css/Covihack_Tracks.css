@@ -5,7 +5,7 @@
 }
 
 .tracks{
-    background-color: darkcyan;
+    background-color:#154f57;
     padding: 40px 0;
     color: white;
 }
@@ -15,12 +15,21 @@
     text-align: right;
     
 }
-
+.track-title>.d-flex>b{
+    font-size: 19px;
+    margin-top: 5%;
+}
+.track-title>.d-flex{
+    justify-content: flex-end;
+    
+}
 .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
     height: 6vw;
     padding-left: 2vw;
 }
-
+/* .tracks{
+    width: 100%;
+} */
 @media only screen and (max-width: 1410px) {
     .blockchain, .ai, .ar-vr, .financial-tech, .social-good, .iot, .healthcare, .mobility{
         height: 9vw;
