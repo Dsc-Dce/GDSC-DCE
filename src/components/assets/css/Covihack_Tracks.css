@@ -16,7 +16,7 @@
     
 }
 .track-title>.d-flex>b{
-    font-size: 19px;
+    font-size: 16px;
     margin-top: 5%;
 }
 .track-title>.d-flex{
@@ -51,9 +51,12 @@
     }
 
     .track-title img{
-        width: 45px;
-        height: 45px;
+        width: 38px;
+        height: 38px;
         margin-right: 2vw;
+    }
+    .healthcare{
+        margin-bottom: 30px !important;
     }
 }
 

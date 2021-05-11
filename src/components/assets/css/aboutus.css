@@ -18,7 +18,7 @@
     width: 40%;
 }
 .secondheader>.text>img{
-    height: 78px;
+    height: 70px;
 }
 .secondheader>.text>h4{
     font-family: 'Nunito',sans-serif;
@@ -249,7 +249,81 @@ color: #EA4435 !important;
 #toggler{
     height:50px;
 }
+@media only screen and (max-width: 1064px) {
+.secondheader>.text>img{
+    height: 67px;
+}
+.whydsc>.text>h6{
+    font-size: 18px;
+}
+.domains>.row>.col-md-4>img{
+    height: 72px;
+}
+.domains>.row>.col-md-4>div{
+    width: 170px;
+    height: 140px;
+}
+}
+@media only screen and (max-width: 971px) {
+    .ZDgCi{
+        top: 81px;
+        right: 0;
+    }
+.secondheader>.text>img{
+    height: 65px;
+}
+.whydsc>.text{
+    padding: 15px;
+}
+.gdsclogo{
+    height: 237px;
+    left: 38%;
+}
+.ZDgCi{
+    right: 8px;
+}
+}
+@media only screen and (max-width: 931px) {
+    .ZDgCi{
+        top: 81px;
+        right: 0;
+    }
+.secondheader>.text>img{
+    height: 62px;
+}
+.joinus>.text>.social-handles>.discord, .joinus>.text>.social-handles>.wp{
+padding: 8px 51px;
+}
+}
+@media only screen and (max-width: 872px) {
+    .ZDgCi{
+        top: 81px;
+        right: 0;
+    }
+.secondheader>.text>img{
+    height: 60px;
+}
+.secondheader>video{
+    margin-top: 50px;
+}
+.domains>.row>.col-md-4>div{
+    width: 155px;
+    height: 130px;
+}
+.domains>.row>.col-md-4>img{
+    height: 70px;
+}
+.domains{
+    width: 58%;
+}
+.joinus>.text>.social-handles>.discord, .joinus>.text>.social-handles>.wp{
+padding: 7px 45px;
+}
+}
 @media only screen and (max-width: 600px) {
+    .domains{
+        width: 100%;
+    }
     #toggler{
         height:30px !important;
     }

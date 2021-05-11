@@ -47,7 +47,7 @@ const REvent = () => {
                         />
                         <REventCard 
                             etitle="Android Study Jam 3" 
-                            edesc="Speaker : Anonymous Dhawan"
+                            edesc="Speaker : Ankit Dhawan"
                             eimg={LETCA}
                         />
                         <REventCard 
