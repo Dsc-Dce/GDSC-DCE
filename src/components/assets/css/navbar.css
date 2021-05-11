@@ -56,6 +56,37 @@ line-height:2.4;
 padding-right:19px !important;
     color:#4385f4 ;
 }
+@media only screen and (min-width:600px) and (max-width:991px){
+    .navbar-collapse{
+        position: absolute;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: 10;
+    }
+    .navbar-nav{
+     padding-top: 20%;
+    }
+    .nav-item{
+        text-align: center;
+        width: 180px;
+        font-size: 22.5px;
+        margin-left: 39%;
+        margin-block-end: 17px;
+    }
+    .events-link>a{
+      font-size: 22.5px;
+      border-radius: 30px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right: 4%;
+        z-index: 12;
+    }
+}
 @media only screen and (max-width: 600px) {
     .navbar{
         padding-right: 4%;

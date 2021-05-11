@@ -263,6 +263,9 @@ color: #EA4435 !important;
     width: 170px;
     height: 140px;
 }
+.ZDgCi{
+    top: 110px !important;
+}
 }
 @media only screen and (max-width: 971px) {
     .ZDgCi{
@@ -282,6 +285,9 @@ color: #EA4435 !important;
 .ZDgCi{
     right: 8px;
 }
+.ZDgCi{
+    top: 110px !important;
+}
 }
 @media only screen and (max-width: 931px) {
     .ZDgCi{
@@ -293,6 +299,9 @@ color: #EA4435 !important;
 }
 .joinus>.text>.social-handles>.discord, .joinus>.text>.social-handles>.wp{
 padding: 8px 51px;
+}
+.ZDgCi{
+    top: 110px !important;
 }
 }
 @media only screen and (max-width: 872px) {
@@ -319,6 +328,92 @@ padding: 8px 51px;
 .joinus>.text>.social-handles>.discord, .joinus>.text>.social-handles>.wp{
 padding: 7px 45px;
 }
+.ZDgCi{
+    top: 110px !important;
+}
+}
+@media only screen and (min-width:599px) and (max-width:900px){
+    .domains{
+        width: 100%;
+    }
+    #toggler{
+        height:30px !important;
+    }
+    .gdsclogo{
+        height: 196px;
+        top: 30%;
+        left: 36%;
+    }
+    .secondheader{
+        flex-direction: column;
+    }
+    .secondheader>video{
+        height: 284px !important;
+    }
+    .secondheader>img{
+        height: auto;
+    }
+    .secondheader>.text{
+        width: 100%;
+        padding: 4% 20%;
+    }
+    .secondheader>.text>img{
+        height: 65px;
+    }
+    .whydsc{
+        flex-direction: column;
+    }
+    .whydsc>.text{
+        width: 100%;
+        padding: 0 20%;
+        margin-bottom: 60px;
+    }
+    .domains>.row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .domains>.row>.col-md-4{
+        align-items: center;
+        text-align: center;
+    }
+    .joinus{
+        padding: 70px 0;
+        flex-direction: column;
+    }
+    .joinus>.text{
+        width: 100%;
+        padding: 5% 20%;
+    }
+    .social-handles{
+        display: flex;
+        flex-direction: column;
+        justify-content: centers;
+    }
+    .joinus>.text>.social-handles>.discord{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .joinus>.text>.social-handles>.wp{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .upcomingevents>h3{
+        text-align: center;
+        padding: 0;
+    }
+    .event-cards>.row>.col-md-3{
+        margin-bottom: 40px;
+    }
+    .joinus>video{
+        height: 265px;
+        margin-top: 0;
+    }
+    .ZDgCi{
+        top: 110px !important;
+    }
 }
 @media only screen and (max-width: 600px) {
     .domains{
