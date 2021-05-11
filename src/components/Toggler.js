@@ -14,9 +14,13 @@ const Toggle = ({theme,  toggleTheme,tsrc }) => {
     background:transparent;
     top:20px;
     right:25px;
-    
+    @media only screen and (min-width:599px) and (max-width:1064px){
+       
+            top: 110px !important;
+  
+    }
     @media only screen and (max-width: 600px) {
-        top:81px;
+        top:81px !important;
         right:0;
        
     }

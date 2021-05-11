@@ -57,7 +57,7 @@ const Team = () => {
                             link="https://www.linkedin.com/in/shruti-sharma-1b1b131a6"
                         />
                         <TeamCard
-                            Mname="Diyanshi Oberoi"
+                            Mname="Divyanshi Oberoi"
                             Mdesc="Content and Social Media"
                             Mphoto={DIVYANSHI}
                             link="https://www.linkedin.com/in/divyanshi-oberoi-a006331aa"
