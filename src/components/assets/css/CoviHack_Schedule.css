@@ -26,12 +26,55 @@
     color: rgb(0, 110, 110);
     font-weight: bolder;
 }
+.Covi-event{
+    margin-bottom: 70px;
+    margin-top: 70px !important;
+}
+.Covi-event>.row{
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+.Covi-event>.row>div>.event-card{
+    background: linear-gradient(rgb(4 43 43),rgba(0,0,0));
+}
+.Covi-event>.row>div>.event-card>a{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    top: 0;
+    left: 15px;
+    padding: 35% 0px;
+    height: 100%;
+    text-align: center;
+    width: 94%;
+    opacity: 0;
+
+}
+.Covi-event>.row>div>.event-card>a:hover{
+text-decoration: none;
+font-weight: 500;
+opacity: 1;
+background: linear-gradient(rgb(4 43 43),rgba(0,0,0));
+}
+.Covi-event>h3{
+    color: rgb(0, 110, 110);
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 0;
+}
 @media only screen and (max-width: 600px) {
 .greenbox{
  display: none;
 }
+.Covi-event>h3{
+    font-size: 26px;
+}
 .schedule h3{
     margin-top: 20px;
     font-size: 26px;
+}
+.Covi-event>.row{
+justify-content: center;
 }
 }

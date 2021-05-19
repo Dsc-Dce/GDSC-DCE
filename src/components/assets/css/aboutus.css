@@ -263,9 +263,6 @@ color: #EA4435 !important;
     width: 170px;
     height: 140px;
 }
-.ZDgCi{
-    top: 110px !important;
-}
 }
 @media only screen and (max-width: 971px) {
     .ZDgCi{
@@ -285,9 +282,9 @@ color: #EA4435 !important;
 .ZDgCi{
     right: 8px;
 }
-.ZDgCi{
-    top: 110px !important;
-}
+ .ZDgCi{
+        top: 110px !important;
+    }
 }
 @media only screen and (max-width: 931px) {
     .ZDgCi{
