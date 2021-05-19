@@ -1,4 +1,4 @@
-import React from 'react';
+import {React,useEffect} from 'react';
 import first_event from './assets/CoviHack Page assets/28.jpeg';
 import sec_event from './assets/CoviHack Page assets/29.jpeg';
 import './assets/css/CoviHack_Schedule.css';
