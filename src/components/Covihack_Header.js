@@ -22,7 +22,7 @@ const Covihack_Header=()=>{
                 <h1 data-aos="fade-up">COVIHACK'21</h1>
                 <h3>Starting soon..</h3>
                 {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSctJOn7QJnGbSpzTisjcs6s270Yut026KQUxYXD8TMYANIKMw/viewform">Register now!</a> */}
-                <a className="disabled">Registeration Closed Now</a>
+                <a className="disabled">Registration Closed Now</a>
             </div>
             <img src={covi} alt="covihack"  className="covi-logo"/>
         </div>
