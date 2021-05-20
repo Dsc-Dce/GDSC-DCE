@@ -27,6 +27,10 @@
     box-shadow: rgb(0 0 0 / 30%) 0px 2px 0px;
     border-radius: 10px;
 }
+.coviheader-text>a.disabled{
+    pointer-events: none;
+    color: #ccc;
+}
 .coviheader-text>a:hover{
     text-decoration: none !important;
     filter: brightness(0.8);
