@@ -46,7 +46,9 @@
 
 .row-3{height: 37px;}
 
-.row-4{height: 45px;}
+.row-4{height: 37px;}
+
+.row-5{height: 35px;}
 
 .gold-title , .silver-title {
     font-size: 25px;
@@ -67,6 +69,8 @@
     .row-3{height: 24px;}
 
     .row-4{height: 32px;}
+
+    .row-5{height: 26px;}
 
     .spons-g{ height: 22px; }
 }

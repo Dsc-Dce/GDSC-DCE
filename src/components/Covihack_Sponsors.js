@@ -14,6 +14,10 @@ import cncf from "./assets/CoviHack Page assets/Sponsors/cncf.png";
 import jetbrains from "./assets/CoviHack Page assets/Sponsors/jetbrains.png";
 import givemycert from "./assets/CoviHack Page assets/Sponsors/givemycert.jpeg";
 import hoverrobotix from "./assets/CoviHack Page assets/Sponsors/hoverrobotix.png";
+import polygon from "./assets/CoviHack Page assets/Sponsors/polygon.png";
+import portis from "./assets/CoviHack Page assets/Sponsors/portis.jpg";
+import skillenza from "./assets/CoviHack Page assets/Sponsors/Skillenza.jpg";
+import tezos from "./assets/CoviHack Page assets/Sponsors/tezos.jpg";
 import AOS from "../../node_modules/aos";
 import "aos/dist/aos.css";
 
@@ -59,14 +63,21 @@ const Covihack_Sponsors = () =>{
                             </div>
 
                             <div className="row spons-row row-3">
-                                <div className="col-4 spons-s" ><img src={taskade} className="spons-row-img" /></div>
+                                <div className="col-5 spons-s" ><img src={taskade} className="spons-row-img" /></div>
                                 <div className="col-4 spons-s" ><img src={cncf} className="spons-row-img" /></div>
-                                <div className="col-4 spons-s" ><img src={jetbrains} className="spons-row-img" /></div>
+                                <div className="col-3 spons-s" ><img src={jetbrains} className="spons-row-img" /></div>
                             </div>
 
                             <div className="row spons-row row-4">
-                                <div className="col-6 spons-s" ><img src={givemycert} className="spons-row-img" /></div>
-                                <div className="col-6 spons-s" ><img src={hoverrobotix} className="spons-row-img" /></div>
+                                <div className="col-5 spons-s" ><img src={givemycert} className="spons-row-img" /></div>
+                                <div className="col-4 spons-s" ><img src={hoverrobotix} className="spons-row-img" /></div>
+                                <div className="col-3 spons-s" ><img src={tezos} className="spons-row-img" /></div>
+                            </div>
+
+                            <div className="row spons-row row-5">
+                                <div className="col-3 spons-s" ><img src={portis} className="spons-row-img" /></div>
+                                <div className="col-5 spons-s" ><img src={skillenza} className="spons-row-img" /></div>
+                                <div className="col-4 spons-s" ><img src={polygon} className="spons-row-img" /></div>
                             </div>
 
                         </div>
