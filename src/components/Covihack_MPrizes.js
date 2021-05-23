@@ -11,7 +11,7 @@ const Covihack_MPrizes = () => {
                 <div className="container">
                     <h1 className="text-center">PRIZES</h1>
                     <div className="row">
-                        <MPrize_card im={one}>
+                        <MPrize_card im={one} tag="1st">
                             <ul>
                                 <li><span>Goodies from Devfolio</span> - (T-shirts & stickers) worth a million smiles</li>
                                 <li><span>Taskade</span> - Lifetime upgrades for winners
@@ -27,7 +27,9 @@ const Covihack_MPrizes = () => {
                                 <li><span>HoverRobotix</span> - Gift Voucher for Winning Team worth 10000/- each</li>
                             </ul>
                         </MPrize_card>
-                        <MPrize_card im={one}>
+                   
+                        <MPrize_card im={one} tag="2nd">
+
                             <ul>
                                 <li><span>Goodies from Devfolio</span> - (T-shirts & stickers) worth a million smiles</li>
                                 <li><span>Taskade</span> - Lifetime upgrades for winners
@@ -41,7 +43,9 @@ const Covihack_MPrizes = () => {
                                 <li><span>JetBrains</span> - free access to all JetBrains professional development tools.</li>
                             </ul>
                         </MPrize_card>
-                        <MPrize_card im={one}>
+
+                        <MPrize_card im={one} tag="3rd">
+
                         <ul>
                                 <li><span>Goodies from Devfolio</span> - (T-shirts & stickers) worth a million smiles</li>
                                 <li><span>Taskade</span> - Lifetime upgrades for winners
@@ -55,8 +59,16 @@ const Covihack_MPrizes = () => {
                                 <li><span>JetBrains</span> - free access to all JetBrains professional development tools.</li>
                             </ul>
                         </MPrize_card>
-                        <MPrize_card im={two}>
-                            <ul>
+                        <div className="col-lg-12 col-md-12 my-2">
+                    <div className="onecard">
+                    <div className="card">
+                        <div className="row">
+                            <div className="col-md-11">
+                                <div className="two">
+                                    <div className="card">
+                                        <h1 className="participation-tag">All Participants</h1>
+                                        <div className="prize-list mt-5">
+                                        <ul>
                                 <li><span>Give my certificates</span></li>
                                 <li><span>top 50 - CFC</span></li>
                                 <li><span>Wolfram</span> - Access for 30 days (Wolfram)</li>
@@ -65,7 +77,20 @@ const Covihack_MPrizes = () => {
                                 <li><span>echoAR</span>echoAR - Premium Tier Services</li>
                                 <li><span>JetBrains</span>JetBrains - Free Access to Jetbrain Proffesional Development tools</li>
                             </ul>
-                        </MPrize_card>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-12">
+                                <img src={two} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
                     </div>
                 </div>
             </div>

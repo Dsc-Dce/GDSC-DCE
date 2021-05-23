@@ -7,7 +7,9 @@ const MPrize_card = (props) => {
                 <div className="onecard">
                     <div className="card">
                         <div className="row">
-                            <div className="col-md-1"></div>
+                            <div className="col-md-1">
+                            <h1  className="prize-tag">{props.tag}</h1>
+                            </div>
                             <div className="col-md-11">
                                 <div className="two">
                                     <div className="card">

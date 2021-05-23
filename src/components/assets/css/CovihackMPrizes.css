@@ -6,11 +6,13 @@
     box-shadow: 0 0 25px rgba(255,255,255);
     overflow: hidden;
     border-radius: 15px;
-    border: 1px solid black;
+    border: none;
     background: none;
+    padding: 10px;
 }
 .two >.card{
     min-height: 400px;
+    border:none;
 }
 .mprizes  span{
     font-weight: bold;
@@ -21,4 +23,30 @@
 }
 .onecard img{
     width: 100%;
+    height: auto;
+}
+.prize-tag{
+    position: absolute;
+    left: 8%;
+    text-shadow: rgb(0 0 0 / 30%) 0px 5px 0px;
+    font-weight: 900;
+    font-size: 51px;
+}
+.onecard{
+box-shadow: 0 0 25px rgb(0 0 0 / 50%);
+border-radius: 18px;
+border: none;
+}
+.participation-tag{
+    left: 8%;
+    font-weight: 900;
+    font-size: 47px;
+}
+@media only screen and (max-width: 992px) {
+.prize-tag{
+    font-size: 40px;
+}
+.participation-tag{
+    font-size: 30px;
+}
 }
