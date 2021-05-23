@@ -18,6 +18,11 @@ const MPrize_card = (props) => {
                                 </div>
                             </div>
                         </div>
+                        <div className="row">
+                            <div className="col-md-12">
+                                <img src={props.im} alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import './assets/css/CovihackMPrizes.css'
 import MPrize_card from './MPrize_card'
+import one from './assets/CoviHack Page assets/prizes/one.jpeg'
+import two from './assets/CoviHack Page assets/prizes/two.jpeg'
 
 const Covihack_MPrizes = () => {
     return (
@@ -9,7 +11,7 @@ const Covihack_MPrizes = () => {
                 <div className="container">
                     <h1 className="text-center">PRIZES</h1>
                     <div className="row">
-                        <MPrize_card>
+                        <MPrize_card im={one}>
                             <ul>
                                 <li><span>Goodies from Devfolio</span> - (T-shirts & stickers) worth a million smiles</li>
                                 <li><span>Taskade</span> - Lifetime upgrades for winners
@@ -25,7 +27,7 @@ const Covihack_MPrizes = () => {
                                 <li><span>HoverRobotix</span> - Gift Voucher for Winning Team worth 10000/- each</li>
                             </ul>
                         </MPrize_card>
-                        <MPrize_card>
+                        <MPrize_card im={one}>
                             <ul>
                                 <li><span>Goodies from Devfolio</span> - (T-shirts & stickers) worth a million smiles</li>
                                 <li><span>Taskade</span> - Lifetime upgrades for winners
@@ -39,7 +41,7 @@ const Covihack_MPrizes = () => {
                                 <li><span>JetBrains</span> - free access to all JetBrains professional development tools.</li>
                             </ul>
                         </MPrize_card>
-                        <MPrize_card>
+                        <MPrize_card im={one}>
                         <ul>
                                 <li><span>Goodies from Devfolio</span> - (T-shirts & stickers) worth a million smiles</li>
                                 <li><span>Taskade</span> - Lifetime upgrades for winners
@@ -53,7 +55,7 @@ const Covihack_MPrizes = () => {
                                 <li><span>JetBrains</span> - free access to all JetBrains professional development tools.</li>
                             </ul>
                         </MPrize_card>
-                        <MPrize_card>
+                        <MPrize_card im={two}>
                             <ul>
                                 <li><span>Give my certificates</span></li>
                                 <li><span>top 50 - CFC</span></li>
