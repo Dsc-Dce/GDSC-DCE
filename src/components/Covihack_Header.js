@@ -8,6 +8,14 @@ const Covihack_Header=()=>{
     useEffect(() => {
         AOS.init();
         AOS.refresh();
+        const script = document.createElement('script');
+        script.src = 'https://apply.devfolio.co/v2/sdk.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+          document.body.removeChild(script);
+        }
       }, []);
     
     return(
@@ -21,8 +29,14 @@ const Covihack_Header=()=>{
                 <h2>DSC DCE Presents</h2>
                 <h1 data-aos="fade-up">COVIHACK'21</h1>
                 <h3>Starting soon..</h3>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSctJOn7QJnGbSpzTisjcs6s270Yut026KQUxYXD8TMYANIKMw/viewform">Register now!</a>
+                {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSctJOn7QJnGbSpzTisjcs6s270Yut026KQUxYXD8TMYANIKMw/viewform">Register now!</a> */}
                 {/* <a className="disabled">Registration Closed Now</a> */}
+                <div 
+	className="apply-button" 
+	data-hackathon-slug="Covihack'21" 
+	data-button-theme="dark-inverted"
+	style={{height:"10%",width:"60%",left:"20%"}}
+></div>
             </div>
             <img src={covi} alt="covihack"  className="covi-logo"/>
         </div>

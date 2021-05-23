@@ -2,7 +2,8 @@
 .coviheader-text{
     position:absolute;
     top:34%;
-    left:22%;
+    left:10%;
+    width: 80%;
     text-align:center;
     z-index:2;
 }
@@ -41,13 +42,15 @@
     top: 80%;
     left: 0;
 }
+iframe>.devfolio-button-iframe{
+    height: 10px;
+}
 @media only screen and (min-width:1254px) and (max-width:1170px){
 .covi-logo{
     top:63%;
 }
 .coviheader-text{
     top: 30%;
-    left: 18%;
 }
 .coviheader-text>h1{
     font-size: 90px;
@@ -61,11 +64,10 @@
 @media only screen and (min-width:599px) and (max-width:991px){
     .covi-logo{
         height:110px;
-        top:70%;
+        top:40%;
     }
 .coviheader-text{ 
-    top: 34%;
-    left: 21%;
+    top: 20%;
 }
 .coviheader-text>h2,.coviheader-text>h3{
     font-size: 16px;
@@ -86,9 +88,11 @@
         height: 60px;
         top: 34%;
     }
+    .devfolio-button-iframe>html>body>button{
+        height:30px;
+    }
 .coviheader-text{ 
     top: 16%;
-    left: 16%;
 }
 .coviheader-text>h2,.coviheader-text>h3{
     font-size: 12px;

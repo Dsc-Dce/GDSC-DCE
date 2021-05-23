@@ -19,6 +19,7 @@
 .spons-row{
     padding: 0;
     margin: 1vw 0;
+    justify-content: space-evenly;
 }
 
 .spons-g{
@@ -38,10 +39,9 @@
     height: 100%;
     object-fit: contain;
 }
-
 .row-g, .row-s{margin: 2vw 0;}
 
-.row-1{height: 29px;}
+.row-1{height: 40px;}
 
 .row-2{height: 37px;}
 
