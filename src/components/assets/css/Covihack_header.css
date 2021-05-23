@@ -42,9 +42,7 @@
     top: 80%;
     left: 0;
 }
-iframe>.devfolio-button-iframe{
-    height: 10px;
-}
+
 @media only screen and (min-width:1254px) and (max-width:1170px){
 .covi-logo{
     top:63%;
@@ -106,5 +104,9 @@ iframe>.devfolio-button-iframe{
 .coviheader-text>a{
     padding: 4px 36px;
     font-size: 14px;
+}
+.resizeButton>iframe{
+    width:75% !important;
+    margin:0;
 }
 }

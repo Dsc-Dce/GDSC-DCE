@@ -31,12 +31,9 @@ const Covihack_Header=()=>{
                 <h3>Starting soon..</h3>
                 {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSctJOn7QJnGbSpzTisjcs6s270Yut026KQUxYXD8TMYANIKMw/viewform">Register now!</a> */}
                 {/* <a className="disabled">Registration Closed Now</a> */}
-                <div 
-	className="apply-button" 
-	data-hackathon-slug="Covihack'21" 
-	data-button-theme="dark-inverted"
-	style={{height:"10%",width:"60%",left:"20%"}}
-></div>
+                <div className="resizeButton">
+                <div className="apply-button" data-hackathon-slug="Covihack'21" data-button-theme="dark-inverted"></div>
+                </div>
             </div>
             <img src={covi} alt="covihack"  className="covi-logo"/>
         </div>

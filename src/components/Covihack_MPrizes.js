@@ -73,9 +73,9 @@ const Covihack_MPrizes = () => {
                                 <li><span>top 50 - CFC</span></li>
                                 <li><span>Wolfram</span> - Access for 30 days (Wolfram)</li>
                                 <li><span>Qoom</span> - 3 month starter pack FOR ALL</li>
-                                <li><span>Taskade</span>Taskade -  1  year upgrades for everyone</li>
-                                <li><span>echoAR</span>echoAR - Premium Tier Services</li>
-                                <li><span>JetBrains</span>JetBrains - Free Access to Jetbrain Proffesional Development tools</li>
+                                <li><span>Taskade</span> -  1  year upgrades for everyone</li>
+                                <li><span>echoAR</span> - Premium Tier Services</li>
+                                <li><span>JetBrains</span> - Free Access to Jetbrain Proffesional Development tools</li>
                             </ul>
                                         </div>
                                     </div>
