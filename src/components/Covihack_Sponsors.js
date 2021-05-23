@@ -29,6 +29,7 @@ const Covihack_Sponsors = () =>{
     return(
         <div className="sponsors">
             <div className="container">
+                <h1 className="text-center">Sponsers</h1>
                 <div className="row">
                     <div className="col-md-5 sponsors-img" data-aos="fade-up">
                         <div className="row-g">

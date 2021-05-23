@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import rob from './assets/images/rob1.jpg';
+// import rob from './assets/images/rob1.jpg';
 
 const REventCard = (props) => {
     return (

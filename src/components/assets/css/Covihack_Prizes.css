@@ -1,0 +1,53 @@
+#prizes .prize-area{
+    padding: 50px 0;
+    margin-bottom: 80px;
+}
+
+#prizes .card{
+    width: 100%;
+    box-shadow: 0 0 25px rgba(255,255,255);
+    overflow: hidden;
+    border-radius: 15px;
+    background: none;
+}
+#prizes .card:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+#prizes .im1 img{
+    height: 175px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+#prizes .im2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    border: 7px solid blueviolet;
+    margin-top: -44px;
+}
+
+#prizes .main-text{
+    padding: 10px 0;
+    text-align: center;
+}
+#prizes .main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0 0 10px;
+}
+#prizes .main-text p{
+    font-size: 20px;
+    padding: 0 35px;
+}
+#prizes .one .card{
+    min-height: 500px;
+}
+
