@@ -3,10 +3,8 @@ import "./assets/css/Covihack_Sponsors.css";
 import img from "./assets/CoviHack Page assets/sponsor.jpg";
 import devfolio from "./assets/CoviHack Page assets/Sponsors/devfolio.png";
 import gfg from "./assets/CoviHack Page assets/Sponsors/gfg.png";
-// import skillenza from "./assets/CoviHack Page assets/Sponsors/skillenza.png";
 import wolfram from "./assets/CoviHack Page assets/Sponsors/wolfram.png";
 import echoar from "./assets/CoviHack Page assets/Sponsors/echoAR.png";
-import progate from "./assets/CoviHack Page assets/Sponsors/progate.png";
 import replit from "./assets/CoviHack Page assets/Sponsors/replit.png";
 import nostarchpress from "./assets/CoviHack Page assets/Sponsors/nostarchpress.png";
 import taskade from "./assets/CoviHack Page assets/Sponsors/taskade.png";
@@ -16,8 +14,8 @@ import givemycert from "./assets/CoviHack Page assets/Sponsors/givemycert.jpeg";
 import hoverrobotix from "./assets/CoviHack Page assets/Sponsors/hoverrobotix.png";
 import polygon from "./assets/CoviHack Page assets/Sponsors/polygon.png";
 import portis from "./assets/CoviHack Page assets/Sponsors/portis.jpg";
-import skillenza from "./assets/CoviHack Page assets/Sponsors/Skillenza.jpg";
 import tezos from "./assets/CoviHack Page assets/Sponsors/tezos.jpg";
+import celo from "./assets/CoviHack Page assets/Sponsors/Celo.png";
 import AOS from "../../node_modules/aos";
 import "aos/dist/aos.css";
 
@@ -51,17 +49,16 @@ const Covihack_Sponsors = () =>{
                             </div>
 
                             <div className="row spons-row row-1">
-                                {/* <div className="col-4 spons-s" ><img src={skillenza} className="spons-row-img" /></div> */}
-                                <div className="col-3 spons-s" ><img src={tezos} className="spons-row-img" /></div>
+                                <div className="col-2 spons-s" ><img src={tezos} className="spons-row-img" /></div>
                                 <div className="col-3 spons-s" ><img src={portis} className="spons-row-img" /></div>
-                                <div className="col-4 spons-s" ><img src={polygon} className="spons-row-img" /></div>
+                                <div className="col-3 spons-s" ><img src={polygon} className="spons-row-img" /></div>
+                                <div className="col-4 spons-s" ><img src={celo} className="spons-row-img" /></div>
                             </div>
 
                             <div className="row spons-row row-2">
-                                {/* <div className="col-4 spons-s" ><img src={progate} className="spons-row-img" /></div> */}
-                                <div className="col-4 spons-s" ><img src={replit} className="spons-row-img" /></div>
+                                <div className="col-6 spons-s" ><img src={echoar} className="spons-row-img" /></div>
                                 <div className="col-4 spons-s" ><img src={nostarchpress} className="spons-row-img" /></div>
-                                <div className="col-4 spons-s" ><img src={hoverrobotix} className="spons-row-img" /></div>
+                                <div className="col-2 spons-s" ><img src={hoverrobotix} className="spons-row-img" /></div>
 
                             </div>
 
@@ -72,9 +69,9 @@ const Covihack_Sponsors = () =>{
                             </div>
 
                             <div className="row spons-row row-4">
-                                <div className="col-5 spons-s" ><img src={givemycert} className="spons-row-img" /></div>
-                                <div className="col-4 spons-s" ><img src={wolfram} className="spons-row-img" /></div>
-                                <div className="col-4 spons-s" ><img src={echoar} className="spons-row-img" style={{height:"23px"}}/></div>
+                                <div className="col-4 spons-s" ><img src={givemycert} className="spons-row-img" /></div>
+                                <div className="col-5 spons-s" ><img src={wolfram} className="spons-row-img" /></div>
+                                <div className="col-3 spons-s" ><img src={replit} className="spons-row-img" style={{height:"23px"}}/></div>
                             </div>
                         </div>
                     </div>

@@ -41,15 +41,14 @@
 
 .row-g, .row-s{margin: 2vw 0;}
 
-.row-1{height: 29px;}
+.row-1{height: 34px;}
 
-.row-2{height: 37px;}
+.row-2{height: 35px;}
 
 .row-3{height: 37px;}
 
 .row-4{height: 37px;}
 
-.row-5{height: 35px;}
 
 .gold-title , .silver-title {
     font-size: 25px;
@@ -57,21 +56,19 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .row-2{height: 33px;}
+    .row-2{height: 28px;}
 
     .row-3{height: 33px;}
 }
 
 @media only screen and (max-width: 992px) {
-    .row-1{height: 22px;}
+    .row-1{height: 26px;}
 
-    .row-2{height: 26px;}
+    .row-2{height: 23px;}
 
     .row-3{height: 24px;}
 
-    .row-4{height: 32px;}
-
-    .row-5{height: 26px;}
+    .row-4{height: 23px;}
 
     .spons-g{ height: 22px; }
 }
