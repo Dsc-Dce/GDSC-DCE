@@ -10,7 +10,7 @@ import Covihack_MPrizes from './Covihack_MPrizes';
 const CoviHack = () => {
     return (
         <Fragment >
-            <div className="covihack-page">
+            <div className="covihack-page" style={{overflow:"hidden"}}>
             <Covihack_Header/>
             <CoviHack_Schedule/>
             <Covihack_Events/>
