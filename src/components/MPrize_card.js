@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-
+import first from './assets/CoviHack Page assets/prizes/first.png'
 const MPrize_card = (props) => {
     return (
         <Fragment>
@@ -21,7 +21,7 @@ const MPrize_card = (props) => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-12">
+                            <div className="col-md-12 py-3">
                                 <img src={props.im} alt="" />
                             </div>
                         </div>

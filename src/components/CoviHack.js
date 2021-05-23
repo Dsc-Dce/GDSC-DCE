@@ -16,7 +16,7 @@ const CoviHack = () => {
             <Covihack_Events/>
             <Covihack_Tracks />
             <Covihack_MPrizes/>
-            {/* <Covihack_Prizes/> */}
+            <Covihack_Prizes/>
             <Covihack_Sponsors />
             </div>
         </Fragment>

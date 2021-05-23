@@ -15,7 +15,9 @@
     box-shadow: 0 0 10px rgba(0, 255, 238, 0.979);
 }
 #prizes .im1 img{
-    height: 175px;
+    height: 200px;
+    background-position: center;
+    object-fit:fill;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     width: 100%;
@@ -27,11 +29,11 @@
     margin-right: auto;
     z-index: 1;
     width: 100px;
-    height: 80px;
+    height: 100px;
     border-radius: 50%;
     /* border: 7px solid blueviolet; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-top: -44px;
+    margin-top: -20px;
 }
 #prizes .card:hover .im2 img{
     transform: scale(1.1);
@@ -43,9 +45,8 @@
     text-align: center;
 }
 #prizes .main-text h2{
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 1.5rem;
     margin: 0 0 10px;
 }
 #prizes .main-text p{
@@ -56,3 +57,41 @@
     min-height: 500px;
 }
 
+.prizeCard_prizes {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    height: 200px;
+}
+
+.prizeCard_prizes li{
+    margin-bottom: 8px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.main-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.main-texts h2{
+    text-transform: uppercase;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.main-texts{
+    font-size: 18px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgba(0, 0, 0, 0.54);
+}
