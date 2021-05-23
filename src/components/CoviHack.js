@@ -4,6 +4,7 @@ import Covihack_Tracks from "./Covihack_Tracks";
 import Covihack_Sponsors from "./Covihack_Sponsors";
 import Covihack_Header from './Covihack_Header';
 import Covihack_Events from './Covihack_Events'
+import Covihack_Prizes from './Covihack_Prizes';
 const CoviHack = () => {
     return (
         <Fragment >
@@ -11,8 +12,8 @@ const CoviHack = () => {
             <Covihack_Header/>
             <CoviHack_Schedule/>
             <Covihack_Events/>
-
             <Covihack_Tracks />
+            <Covihack_Prizes/>
             <Covihack_Sponsors />
             </div>
         </Fragment>
