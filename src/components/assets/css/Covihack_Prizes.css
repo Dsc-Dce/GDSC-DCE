@@ -12,7 +12,7 @@
 }
 #prizes .card:hover{
     transition: 0.5s;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 238, 0.979);
 }
 #prizes .im1 img{
     height: 175px;
@@ -29,8 +29,13 @@
     width: 100px;
     height: 80px;
     border-radius: 50%;
-    border: 7px solid blueviolet;
+    /* border: 7px solid blueviolet; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: -44px;
+}
+#prizes .card:hover .im2 img{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
 }
 
 #prizes .main-text{

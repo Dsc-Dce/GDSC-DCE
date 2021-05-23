@@ -13,7 +13,6 @@ const Covihack_Prizes = (props) => {
                             <PrizeCard/>
                             <PrizeCard/>
                             <PrizeCard/>
-                            <PrizeCard/>
                         </div>
                     </div>
                 </div>
