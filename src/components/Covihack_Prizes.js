@@ -11,7 +11,7 @@ const Covihack_Prizes = (props) => {
             <div id="prizes">
                 <div className="prize-area">
                     <div className="container">
-                        <h1 className="text-center">Prizes</h1>
+                        <h1 className="text-center">Special Prizes</h1>
                         <div className="row">
                             <PrizeCard 
                             bgImage={polygon}
