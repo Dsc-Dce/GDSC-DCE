@@ -5,7 +5,7 @@ import pr from './assets/CoviHack Page assets/prizes/pngtree-first-prize-gold-tr
 const PrizeCard = (props) => {
     return (
         <Fragment>
-             <div className="col-lg-4 col-md-6 mt-4">
+             <div className="col-lg-12 col-md-6 mt-4">
                 <div className="one">
                     <div className="card">
                         <div className="im1"><img src={tech} alt="im" /></div>

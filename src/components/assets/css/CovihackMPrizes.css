@@ -1,0 +1,21 @@
+.onecard .card{
+    min-height: 500px;
+}
+.mprizes .card{
+    width: 100%;
+    box-shadow: 0 0 25px rgba(255,255,255);
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: none;
+}
+.two >.card{
+    min-height: 400px;
+}
+.mprizes  span{
+    font-weight: bold;
+    color: rgb(1, 77, 77);
+}
+.prize-list{
+    font-size: 19px;
+}

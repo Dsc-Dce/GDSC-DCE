@@ -1,0 +1,28 @@
+import React, { Fragment } from 'react'
+
+const MPrize_card = (props) => {
+    return (
+        <Fragment>
+            <div className="col-lg-12 col-md-12 my-2">
+                <div className="onecard">
+                    <div className="card">
+                        <div className="row">
+                            <div className="col-md-1"></div>
+                            <div className="col-md-11">
+                                <div className="two">
+                                    <div className="card">
+                                        <div className="prize-list mt-5">
+                                            {props.children}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Fragment>
+    )
+}
+
+export default MPrize_card
