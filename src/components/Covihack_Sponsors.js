@@ -52,14 +52,17 @@ const Covihack_Sponsors = () =>{
 
                             <div className="row spons-row row-1">
                                 {/* <div className="col-4 spons-s" ><img src={skillenza} className="spons-row-img" /></div> */}
-                                <div className="col-4 spons-s" ><img src={wolfram} className="spons-row-img" /></div>
-                                <div className="col-4 spons-s" ><img src={echoar} className="spons-row-img" /></div>
+                                <div className="col-3 spons-s" ><img src={tezos} className="spons-row-img" /></div>
+                                <div className="col-3 spons-s" ><img src={portis} className="spons-row-img" /></div>
+                                <div className="col-4 spons-s" ><img src={polygon} className="spons-row-img" /></div>
                             </div>
 
                             <div className="row spons-row row-2">
-                                <div className="col-4 spons-s" ><img src={progate} className="spons-row-img" /></div>
+                                {/* <div className="col-4 spons-s" ><img src={progate} className="spons-row-img" /></div> */}
                                 <div className="col-4 spons-s" ><img src={replit} className="spons-row-img" /></div>
                                 <div className="col-4 spons-s" ><img src={nostarchpress} className="spons-row-img" /></div>
+                                <div className="col-4 spons-s" ><img src={hoverrobotix} className="spons-row-img" /></div>
+
                             </div>
 
                             <div className="row spons-row row-3">
@@ -70,16 +73,9 @@ const Covihack_Sponsors = () =>{
 
                             <div className="row spons-row row-4">
                                 <div className="col-5 spons-s" ><img src={givemycert} className="spons-row-img" /></div>
-                                <div className="col-4 spons-s" ><img src={hoverrobotix} className="spons-row-img" /></div>
-                                <div className="col-3 spons-s" ><img src={tezos} className="spons-row-img" /></div>
+                                <div className="col-4 spons-s" ><img src={wolfram} className="spons-row-img" /></div>
+                                <div className="col-4 spons-s" ><img src={echoar} className="spons-row-img" style={{height:"23px"}}/></div>
                             </div>
-
-                            <div className="row spons-row row-5">
-                                <div className="col-3 spons-s" ><img src={portis} className="spons-row-img" /></div>
-                                <div className="col-5 spons-s" ><img src={skillenza} className="spons-row-img" /></div>
-                                <div className="col-4 spons-s" ><img src={polygon} className="spons-row-img" /></div>
-                            </div>
-
                         </div>
                     </div>
                     <div className="col-md-7" data-aos="fade-up"><img src={img} className="spons-img" /></div>
