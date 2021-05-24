@@ -15,6 +15,7 @@ const Covihack_Prizes = (props) => {
                         <div className="row">
                             <PrizeCard 
                             bgImage={polygon}
+                            link = "https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"
                             heading="Polygon"
                             desc={ <ul className="prizeCard_prizes">
                             <li>
@@ -30,6 +31,7 @@ const Covihack_Prizes = (props) => {
                             />
                            <PrizeCard 
                            bgImage={portis}
+                           link = "https://www.notion.so/Portis-by-Shapeshift-Devfolio-Hackathon-Season-Prize-e198dfd094a9411b8cd0f80d76a04a90"
                             heading="Portis"
                             desc={
                                 <ul className="prizeCard_prizes">
@@ -41,6 +43,7 @@ const Covihack_Prizes = (props) => {
                             />
                             <PrizeCard 
                             bgImage={tezos}
+                            link = "https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff"
                             heading="Tezos"
                             desc={
                                 <ul className="prizeCard_prizes">
@@ -55,6 +58,7 @@ const Covihack_Prizes = (props) => {
                             />
                             <PrizeCard 
                             bgImage={celo}
+                            link = "https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"
                             heading="celo"
                             desc={
                                 <ul className="prizeCard_prizes">
