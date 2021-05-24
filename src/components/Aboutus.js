@@ -68,7 +68,7 @@ const Aboutus=(props)=>{
                     <h4>
                     The<span className="bold"> Developer Student Clubs (DSC)</span> program is a grassroots channel through which we provide development skills for students, towards employability. In addition to workshops, we also provide an opportunity for students to apply their newly gained skills to develop solutions for local organizations and then provide visibility via showcases.
                     </h4>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSctJOn7QJnGbSpzTisjcs6s270Yut026KQUxYXD8TMYANIKMw/viewform" data-aos="fade-up">Register for CoViHaCk'21</a>
+                    {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSctJOn7QJnGbSpzTisjcs6s270Yut026KQUxYXD8TMYANIKMw/viewform" data-aos="fade-up">Register for CoViHaCk'21</a> */}
                 </div>
             </div>
             <div className="whydsc d-flex">
