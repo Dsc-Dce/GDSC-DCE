@@ -42,7 +42,7 @@
 }
 .row-g, .row-s{margin: 4vw 0;}
 
-.row-1{height: 60px;}
+.row-1{height: 40px;}
 
 .row-2{height: 45px;}
 
@@ -58,13 +58,13 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .row-2{height: 28px;}
+    .row-2{height: 23px;}
 
     .row-3{height: 33px;}
 }
 
 @media only screen and (max-width: 992px) {
-    .row-1{height: 33px;}
+    .row-1{height: 20px;}
 
     .row-2{height: 25px;}
 
