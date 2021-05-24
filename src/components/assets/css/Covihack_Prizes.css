@@ -15,6 +15,7 @@
     box-shadow: 0 0 10px rgba(0, 255, 238, 0.979);
 }
 #prizes .im1 img{
+    height: 150px;
     background-position: center;
     object-fit:fill;
     border-top-right-radius: 15px;
@@ -54,7 +55,7 @@
     padding: 0 35px;
 }
 #prizes .one .card{
-    min-height: 500px;
+    min-height: 550px;
 }
 
 .prizeCard_prizes {

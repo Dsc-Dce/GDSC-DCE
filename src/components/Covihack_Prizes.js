@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import './assets/css/Covihack_Prizes.css'
 import PrizeCard from './PrizeCard';
 import celo from "./assets/CoviHack Page assets/Sponsors/Celo.png";
-import polygon from "./assets/CoviHack Page assets/Sponsors/Polygon.png";
+import polygon from "./assets/CoviHack Page assets/Sponsors/polygon.png";
 import portis from "./assets/CoviHack Page assets/Sponsors/Portis.png";
 import tezos from "./assets/CoviHack Page assets/Sponsors/Tezos.png";
 const Covihack_Prizes = (props) => {

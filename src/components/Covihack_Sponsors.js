@@ -12,7 +12,7 @@ import cncf from "./assets/CoviHack Page assets/Sponsors/cncf.png";
 import jetbrains from "./assets/CoviHack Page assets/Sponsors/jetbrains.png";
 import givemycert from "./assets/CoviHack Page assets/Sponsors/givemycert.jpeg";
 import hoverrobotix from "./assets/CoviHack Page assets/Sponsors/hoverrobotix.png";
-import polygon from "./assets/CoviHack Page assets/Sponsors/Polygon.png";
+import polygon from "./assets/CoviHack Page assets/Sponsors/polygon.png";
 import portis from "./assets/CoviHack Page assets/Sponsors/Portis.png";
 import tezos from "./assets/CoviHack Page assets/Sponsors/Tezos.png";
 import celo from "./assets/CoviHack Page assets/Sponsors/Celo.png";
