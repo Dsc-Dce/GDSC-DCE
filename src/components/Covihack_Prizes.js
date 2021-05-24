@@ -2,9 +2,9 @@ import React, { Fragment } from 'react'
 import './assets/css/Covihack_Prizes.css'
 import PrizeCard from './PrizeCard';
 import celo from "./assets/CoviHack Page assets/Sponsors/Celo.png";
-import polygon from "./assets/CoviHack Page assets/Sponsors/polygon.png";
-import portis from "./assets/CoviHack Page assets/Sponsors/portis.jpg";
-import tezos from "./assets/CoviHack Page assets/Sponsors/tezos.jpg";
+import polygon from "./assets/CoviHack Page assets/prizes/polygon.png";
+import portis from "./assets/CoviHack Page assets/prizes/portis.svg";
+import tezos from "./assets/CoviHack Page assets/prizes/tezos.png";
 const Covihack_Prizes = (props) => {
     return (
         <Fragment>
@@ -58,9 +58,7 @@ const Covihack_Prizes = (props) => {
                             heading="celo"
                             desc={
                                 <ul className="prizeCard_prizes">
-                                    <li>
-                                    Continuity Grant opportunity for exceptional builders
-                                    </li>
+                                    <li>₹20,000 for best Dapp built on Celo</li>
                                 </ul>
                             }
                             />
