@@ -7,7 +7,11 @@ const PrizeCard = ({bgImage,heading,desc}) => {
              <div className="col-lg-4 col-md-6 mt-4">
                 <div className="one">
                     <div className="card">
-                        <div className="im1"><img src={bgImage} alt="im" /></div>
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="im1"><img src={bgImage} alt="im" /></div>
+                            </div>
+                        </div>
                         <div className="im2"><img src={pr} alt="im2" /></div>
                         <div className="main-texts">
                             <h2>{heading}</h2>
