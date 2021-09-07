@@ -41,10 +41,6 @@ if(!mountedComponent) return <div/>
         <Team  theme={theme}/>
       </Route>
 
-      <Route path="/covihack">
-        <CoviHack/>
-      </Route>
-
       <Footer/>
     </div>
     </>

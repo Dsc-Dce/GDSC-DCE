@@ -11,6 +11,7 @@ import DODSC from './assets/images/events_image/day_out_with DSC.jpeg'
 import GITHI from './assets/images/events_image/intro_to_git_and_github.jpeg'
 import BUZZ from './assets/images/events_image/buzz_quiz.jpeg'
 import WOW from './assets/images/events_image/DSC_wow.png'
+import INFOSESSION from './assets/images/events_image/'
 
 const REvent = () => {
     return (
@@ -19,21 +20,29 @@ const REvent = () => {
                 <div className="container my-3 py-5 ">
 
                     <h1 className="text-center">Upcoming Events</h1>
+                    
+                    <hr/>
+
+                    <h1 className="text-center">Past Events (2021-2022)</h1>
                     <div className="row mt-5">
+
+                        <REventCard 
+                            etitle="Info Session" 
+                            edesc="Speaker: Shruti Sharma"
+                            eimg={INFOSESSION}
+                        />
+
+                    </div>
+
+                    <h1 className="text-center">Past Events (2020 - 2021)</h1>
+                    <div className="row mt-5">
+
 
                         <REventCard 
                             etitle="CoViHaCk'21" 
                             edesc="Stay Tuned for the updates ..."
                             eimg={COVIHACK}
-                        />    
-
-                    </div>
-
-                    <hr/>
-
-                    <h1 className="text-center">Past Events</h1>
-                    <div className="row mt-5">
-
+                        />
                         
                         <REventCard 
                             etitle="QwickLabs Workshop" 

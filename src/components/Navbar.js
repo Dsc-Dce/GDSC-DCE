@@ -28,9 +28,6 @@ return(
       <li className="nav-item">
         <NavLink className="nav-link" data-toggle="collapse" data-target=".navbar-collapse"  to="/events">Events</NavLink>
       </li>
-      <li className="nav-item events-link">
-        <NavLink className="nav-link " data-toggle="collapse" data-target=".navbar-collapse"  to="/covihack">CoviHack'21</NavLink>
-      </li>
     </ul>
   </div>
 </nav>
