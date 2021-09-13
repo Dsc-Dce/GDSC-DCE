@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import './assets/css/Team.css';
 import TeamCard from './TeamCard';
-// import SEJAL from './assets/images/TEAM PHOTOS/SEJAL KHANNA_ORGANISER + DSC LEAD.png'
+import SHRUTI from './assets/images/TEAM PHOTOS/Shruti_Sharma_Community_Lead.jpeg'
 import ANKIT from './assets/images/TEAM PHOTOS/AD_Community Manager.jpg'
 import RAJAT from './assets/images/TEAM PHOTOS/RAJAT DASH_Website_development-2.jpeg'
 import AMAN from './assets/images/TEAM PHOTOS/Aman Yadav design team lead, airmeet wf, social media.jpg'
