@@ -64,7 +64,7 @@ const Team = () => {
                             Mname="Jai Chaudhary"
                             Mdesc="Event Management Lead"
                             Mphoto={JAI}
-                            link="https://www.linkedin.com/in/divyanshi-oberoi-a006331aa"
+                            link="https://www.linkedin.com/in/jai-chaudhary-094748210/"
                         />
                         <TeamCard
                             Mname="Isha Dabas"
