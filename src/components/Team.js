@@ -2,17 +2,21 @@ import React, { Fragment } from 'react';
 import './assets/css/Team.css';
 import TeamCard from './TeamCard';
 import SHRUTI from './assets/images/TEAM PHOTOS/Shruti_Sharma_Community_Lead.jpeg'
-import ANKIT from './assets/images/TEAM PHOTOS/AD_Community Manager.jpg'
-import RAJAT from './assets/images/TEAM PHOTOS/RAJAT DASH_Website_development-2.jpeg'
-import AMAN from './assets/images/TEAM PHOTOS/Aman Yadav design team lead, airmeet wf, social media.jpg'
-import AYUSH from './assets/images/TEAM PHOTOS/AYUSH_GUPTA_AIRMEET_SPONSOR.jpg'
-import DIVYANSHI from './assets/images/TEAM PHOTOS/DIVYANSHI OBEROI_Content_Social_Media.jpg'
-import RITVIK from './assets/images/TEAM PHOTOS/RITVIK BHADOLA_DISCORD MANAGEMENT.JPG'
-import RIYA from './assets/images/TEAM PHOTOS/RIYA VERMA_Content_Social_Media.jpg'
-import SAHIL from './assets/images/TEAM PHOTOS/SAHILSANDHU_DEVFOLIO.jpg'
-import SHRUTI from './assets/images/TEAM PHOTOS/SHRUTI_SHARMA_WebDev_Marketing.jpeg';
-import PRERNA from './assets/images/TEAM PHOTOS/Prerna_Sponsors_Devfolio_Marketing.png';
-import SHIVAM from './assets/images/TEAM PHOTOS/SHIVAM MONGA_Design & UI_UX Lead.jpg';
+import TANMAY from './assets/images/TEAM PHOTOS/Tanmay Srivastava_Outreach Team Lead.jpg'
+import TANIA from './assets/images/TEAM PHOTOS/Tania_WebDevelopmentLead.jpg'
+import VAISHNAVI from './assets/images/TEAM PHOTOS/vaishnavi_sharma_content_team_lead.jpg'
+import PREETI from './assets/images/TEAM PHOTOS/preeti_cloud.jpg'
+import MANISH from './assets/images/TEAM PHOTOS/Manish_UI_UX(LEAD).jpg'
+import JAI from './assets/images/TEAM PHOTOS/Jai Chaudhary_ Event Management Lead.jpg'
+import ISHA from './assets/images/TEAM PHOTOS/Isha Dabas Event management lead.jpg'
+import AKASH from './assets/images/TEAM PHOTOS/Akash_singh_cloud_lead.jpg'
+import DIVYA from './assets/images/TEAM PHOTOS/DivyaSharma_AppDevelopmentLead.jpg';
+import AUM from './assets/images/TEAM PHOTOS/Aum Singhal_ Web Design team .jpg';
+import AKANKSHA from './assets/images/TEAM PHOTOS/Akanksha Parijat_Design Team Lead.jpg';
+import AKANKSHA_DIXIT from './assets/images/TEAM PHOTOS/Akanksha Dixit Outreach Team Lead.jpg';
+import SUKARN from './assets/images/TEAM PHOTOS/sukarn chowdhary_social_media_lead.jpg';
+import AKRITI from './assets/images/TEAM PHOTOS/Akriti_Sinha_Social_media_lead.jpg';
+import TANYA from './assets/images/TEAM PHOTOS/Tanya_Karn_Content_creation_lead.jpg';
 const Team = () => {
     return (
         <Fragment>
@@ -20,85 +24,104 @@ const Team = () => {
                 <div className="container">
                     <h1 id="heading">Our Core Team Members</h1>
                     <div className="row">
-//                         <TeamCard
-//                             Mname="Sejal Khanna"
-//                             Mdesc="DSC lead"
-//                             Mphoto={SEJAL}
-//                             link="https://www.linkedin.com/in/sejal-khanna-ab10b1171"
-//                         />
-                        <TeamCard
-                            Mname="Rajat Dash"
-                            Mdesc="Web Development"
-                            Mphoto={RAJAT}
-                            link="https://www.linkedin.com/in/rajatdash"
-                        />
-                        <TeamCard
-                            Mname="Ankit Dhawan"
-                            Mdesc=" Mobile App Development"
-                            Mphoto={ANKIT}
-                            link="https://www.linkedin.com/in/ankit-dhawan-17b552161/"
-                        />
-                        <TeamCard
-                            Mname="Aman Yadav"
-                            Mdesc="Design Team lead"
-                            Mphoto={AMAN}
-                            link="https://www.linkedin.com/in/aman-yadav00123/"
-                        />
-                        <TeamCard
-                            Mname="Ayush Gupta"
-                            Mdesc="Android Development"
-                            Mphoto={AYUSH}
-                            link=" https://www.linkedin.com/in/ayush-gupta-401ab3173/"
-                        />
                         <TeamCard
                             Mname="Shruti Sharma"
-                            Mdesc="Web Development"
+                            Mdesc="Community lead"
                             Mphoto={SHRUTI}
-                            link="https://www.linkedin.com/in/shruti-sharma-1b1b131a6"
+                            link="https://www.linkedin.com/in/shruti-sharma-1b1b131a6/"
                         />
                         <TeamCard
-                            Mname="Divyanshi Oberoi"
-                            Mdesc="Content and Social Media"
-                            Mphoto={DIVYANSHI}
+                            Mname="Tanmay Srivastava"
+                            Mdesc="Outreach Team Lead"
+                            Mphoto={TANMAY}
+                            link="https://www.linkedin.com/in/tanmay-srivastava-b74505219"
+                        />
+                        <TeamCard
+                            Mname="Tania"
+                            Mdesc="Web Development Lead"
+                            Mphoto={TANIA}
+                            link="https://www.linkedin.com/in/tania-chanana-64aa581b1/"
+                        />
+                        <TeamCard
+                            Mname="Vaishnavi Sharma"
+                            Mdesc="Content Team Lead"
+                            Mphoto={VAISHNAVI}
+                            link="https://www.linkedin.com/in/vaishnavi-sharma-21a02b203/"
+                        />
+                        <TeamCard
+                            Mname="Preeti Ahuja"
+                            Mdesc="Cloud Lead"
+                            Mphoto={PREETI}
+                            link="https://www.linkedin.com/in/preeti-ahuja-5753531a1/"
+                        />
+                        <TeamCard
+                            Mname="Manish Kumar Singh"
+                            Mdesc="UI/UX Lead"
+                            Mphoto={MANISH}
+                            link="https://www.linkedin.com/in/manish-kumar-singh-4995201a0"
+                        />
+                        <TeamCard
+                            Mname="Jai Chaudhary"
+                            Mdesc="Event Management Lead"
+                            Mphoto={JAI}
                             link="https://www.linkedin.com/in/divyanshi-oberoi-a006331aa"
                         />
                         <TeamCard
-                            Mname="Ritvik Bhadola"
-                            Mdesc="Ethical Hacking"
-                            Mphoto={RITVIK}
-                            link="#"
+                            Mname="Isha Dabas"
+                            Mdesc="Event Management Lead"
+                            Mphoto={ISHA}
+                            link="https://www.linkedin.com/in/isha-dabas-6b817a210"
                         />
                         <TeamCard
-                            Mname="Riya Verma"
-                            Mdesc="Content and Social Media"
-                            Mphoto={RIYA}
-                            link="http://linkedin.com/in/riya-verma-7495a91aa"
+                            Mname="Akash Singh"
+                            Mdesc="Cloud Lead"
+                            Mphoto={AKASH}
+                            link="https://www.linkedin.com/in/akash-singh-2802"
                         />
 
                         <TeamCard
-                            Mname="Sahil Sandhu"
-                            Mdesc="ML/AI lead"
-                            Mphoto={SAHIL}
-                            link="https://www.linkedin.com/in/the-sahil-sandhu/"
+                            Mname="Divya Sharma"
+                            Mdesc="App development lead"
+                            Mphoto={DIVYA}
+                            link="https://www.linkedin.com/in/divya-sharma-1502"
                         />
                          <TeamCard
-                            Mname="Shivam Monga"
-                            Mdesc="Design and UI/UX Lead"
-                            Mphoto={SHIVAM}
-                            link="https://www.linkedin.com/in/theshivammonga/"
+                            Mname="Aum Singhal"
+                            Mdesc="Web Development Lead"
+                            Mphoto={AUM}
+                            link="https://www.linkedin.com/in/aum-s-895a86131/"
                         />
                          <TeamCard
-                            Mname="Prerna Mishra"
-                            Mdesc="ML/AI"
-                            Mphoto={PRERNA}
-                            link="https://www.linkedin.com/in/m-prerna"
+                            Mname="Akanksha Parijat"
+                            Mdesc="Design Team Lead"
+                            Mphoto={AKANKSHA}
+                            link="https://www.linkedin.com/in/akanksha-parijat-2a7a6620b"
                         />
-                        {/* <TeamCard
-                        Mname="Saarthak Harit"
-                        Mdesc="Ethical Hacking"
-                        Mphoto=""
-                        link=""
-                        /> */}
+                         <TeamCard
+                            Mname="Akanksha Dixit"
+                            Mdesc="Outreach team lead"
+                            Mphoto={AKANKSHA_DIXIT}
+                            link="https://www.linkedin.com/in/akanksha-dixit-11520a210"
+                        />
+                          <TeamCard
+                            Mname="Sukarn Chowdhry"
+                            Mdesc="Social Media Lead"
+                            Mphoto={SUKARN}
+                            link="https://www.linkedin.com/in/sukarn-chowdhry-371042132/"
+                        />
+                          <TeamCard
+                            Mname="Akriti Sinha"
+                            Mdesc="Social Media Lead"
+                            Mphoto={AKRITI}
+                            link="https://www.linkedin.com/in/akriti-sinha-1b934b196"
+                        />
+                          <TeamCard
+                            Mname="Tanya karn"
+                            Mdesc="Content Creation lead"
+                            Mphoto={TANYA}
+                            link="https://www.linkedin.com/in/tanya-karn-185438210"
+                        />
+                       
                     </div>
                 </div>
             </div>
