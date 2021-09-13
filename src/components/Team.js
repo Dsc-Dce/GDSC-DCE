@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import './assets/css/Team.css';
 import TeamCard from './TeamCard';
-import SEJAL from './assets/images/TEAM PHOTOS/SEJAL KHANNA_ORGANISER + DSC LEAD.png'
+// import SEJAL from './assets/images/TEAM PHOTOS/SEJAL KHANNA_ORGANISER + DSC LEAD.png'
 import ANKIT from './assets/images/TEAM PHOTOS/AD_Community Manager.jpg'
 import RAJAT from './assets/images/TEAM PHOTOS/RAJAT DASH_Website_development-2.jpeg'
 import AMAN from './assets/images/TEAM PHOTOS/Aman Yadav design team lead, airmeet wf, social media.jpg'
@@ -20,12 +20,12 @@ const Team = () => {
                 <div className="container">
                     <h1 id="heading">Our Core Team Members</h1>
                     <div className="row">
-                        <TeamCard
-                            Mname="Sejal Khanna"
-                            Mdesc="DSC lead"
-                            Mphoto={SEJAL}
-                            link="https://www.linkedin.com/in/sejal-khanna-ab10b1171"
-                        />
+//                         <TeamCard
+//                             Mname="Sejal Khanna"
+//                             Mdesc="DSC lead"
+//                             Mphoto={SEJAL}
+//                             link="https://www.linkedin.com/in/sejal-khanna-ab10b1171"
+//                         />
                         <TeamCard
                             Mname="Rajat Dash"
                             Mdesc="Web Development"
