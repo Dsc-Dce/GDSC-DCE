@@ -17,6 +17,7 @@ import AKANKSHA_DIXIT from './assets/images/TEAM PHOTOS/Akanksha Dixit Outreach 
 import SUKARN from './assets/images/TEAM PHOTOS/sukarn chowdhary_social_media_lead.jpg';
 import AKRITI from './assets/images/TEAM PHOTOS/Akriti_Sinha_Social_media_lead.jpg';
 import TANYA from './assets/images/TEAM PHOTOS/Tanya_Karn_Content_creation_lead.jpg';
+import TANNU from './assets/images/TEAM PHOTOS/Tannu_Sharma_Design_TeamLead.jpeg';
 const Team = () => {
     return (
         <Fragment>
@@ -121,7 +122,12 @@ const Team = () => {
                             Mphoto={TANYA}
                             link="https://www.linkedin.com/in/tanya-karn-185438210"
                         />
-                       
+                         <TeamCard
+                            Mname="Tannu Sharma"
+                            Mdesc="Design Team Lead"
+                            Mphoto={TANNU}
+                            link="https://www.linkedin.com/in/tannu-sharma-38ab521a9/"
+                        />
                     </div>
                 </div>
             </div>

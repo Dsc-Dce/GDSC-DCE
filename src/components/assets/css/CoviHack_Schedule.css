@@ -2,7 +2,9 @@
     width:55%;
     /* height: 100%; */
 }
-
+#event > div > div > div > div > .card-body{
+    height: 320px;
+}
 .greenbox{
     width: 200px;
     height: 300px;
